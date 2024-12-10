@@ -45,48 +45,107 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     });
 });
 
-// Intersection Observer for fade-in animations
+// Enhanced Intersection Observer for fade-in animations
 const observerOptions = {
     root: null,
-    threshold: 0.1,
+    threshold: 0.2,
     rootMargin: '0px'
 };
 
 const observer = new IntersectionObserver((entries) => {
     entries.forEach(entry => {
         if (entry.isIntersecting) {
-            entry.target.style.opacity = '1';
-            entry.target.style.transform = 'translateY(0)';
+            entry.target.classList.add('visible');
+            if (entry.target.classList.contains('skills-highlight')) {
+                animateSkills();
+            }
         }
     });
 }, observerOptions);
 
-// Observe all sections for animation
-document.querySelectorAll('.section').forEach(section => {
-    section.style.opacity = '0';
-    section.style.transform = 'translateY(20px)';
-    section.style.transition = 'all 0.6s ease-out';
-    observer.observe(section);
+// Observe all sections and cards for animation
+document.querySelectorAll('.section, .project-card, .publication-item, .education-card').forEach(element => {
+    element.style.opacity = '0';
+    element.style.transform = 'translateY(20px)';
+    observer.observe(element);
 });
 
-// Add active class to navigation links based on scroll position
-window.addEventListener('scroll', () => {
+// Active navigation highlighting
+const navHighlighter = () => {
     const sections = document.querySelectorAll('.section');
     const navLinks = document.querySelectorAll('.nav-links a');
     
-    let current = '';
+    let currentSection = '';
+    const scrollY = window.pageYOffset;
     
     sections.forEach(section => {
-        const sectionTop = section.offsetTop;
-        if (pageYOffset >= sectionTop - 60) {
-            current = section.getAttribute('id');
+        const sectionHeight = section.offsetHeight;
+        const sectionTop = section.offsetTop - 100;
+        const sectionId = section.getAttribute('id');
+        
+        if (scrollY > sectionTop && scrollY <= sectionTop + sectionHeight) {
+            currentSection = sectionId;
         }
     });
 
     navLinks.forEach(link => {
         link.classList.remove('active');
-        if (link.getAttribute('href').slice(1) === current) {
+        if (link.getAttribute('href') === `#${currentSection}`) {
             link.classList.add('active');
+        }
+    });
+};
+
+// Add scroll event listener for navigation highlighting
+window.addEventListener('scroll', navHighlighter);
+
+// Project card hover effect
+document.querySelectorAll('.project-card').forEach(card => {
+    card.addEventListener('mouseenter', function() {
+        this.style.transform = 'translateY(-10px)';
+    });
+    
+    card.addEventListener('mouseleave', function() {
+        this.style.transform = 'translateY(0)';
+    });
+});
+
+// Publication link hover effect
+document.querySelectorAll('.paper-link').forEach(link => {
+    link.addEventListener('mouseenter', function() {
+        this.style.color = getComputedStyle(document.documentElement)
+            .getPropertyValue('--primary-light').trim();
+    });
+    
+    link.addEventListener('mouseleave', function() {
+        this.style.color = getComputedStyle(document.documentElement)
+            .getPropertyValue('--primary-color').trim();
+    });
+});
+
+// Add visible class for animation
+document.addEventListener('DOMContentLoaded', () => {
+    setTimeout(() => {
+        document.body.classList.add('loaded');
+    }, 300);
+});
+
+// Helper function to check if element is in viewport
+const isInViewport = (element) => {
+    const rect = element.getBoundingClientRect();
+    return (
+        rect.top >= 0 &&
+        rect.left >= 0 &&
+        rect.bottom <= (window.innerHeight || document.documentElement.clientHeight) &&
+        rect.right <= (window.innerWidth || document.documentElement.clientWidth)
+    );
+};
+
+// Add scroll-based animations
+window.addEventListener('scroll', () => {
+    document.querySelectorAll('.fade-in').forEach(element => {
+        if (isInViewport(element)) {
+            element.classList.add('visible');
         }
     });
 });
