@@ -1,6 +1,26 @@
 // Theme toggling functionality
 const themeToggle = document.getElementById('theme-toggle');
 const prefersDarkScheme = window.matchMedia('(prefers-color-scheme: dark)');
+// Mobile menu functionality
+const mobileMenuToggle = document.getElementById('mobile-menu-toggle');
+const navLinksContainer = document.querySelector('.nav-links-container');
+
+// Toggle the mobile menu
+mobileMenuToggle.addEventListener('click', () => {
+    navLinksContainer.classList.toggle('active');
+});
+
+// Close the menu when clicking outside
+document.addEventListener('click', (event) => {
+    if (
+        !navLinksContainer.contains(event.target) &&
+        !mobileMenuToggle.contains(event.target)
+    ) {
+        navLinksContainer.classList.remove('active');
+    }
+});
+
+
 
 const getCurrentTheme = () => {
     const savedTheme = localStorage.getItem('theme');
