@@ -1,14 +1,18 @@
 github_users:
-  - torvalds
-  - alshedivat
+  - junayed-hasan
 
-repo_description_lines_max: 2
+repo_description_lines_max: 3
 
 github_repos:
-  - alshedivat/al-folio
-  - jekyll/jekyll
-  - twbs/bootstrap
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - mathjax/MathJax
-  - jpswalsh/academicons
+  - junayed-hasan/Deep-Learning-PyTorch
+  - junayed-hasan/Quantum-Machine-Learning-Qiskit-PyTorch
+  - junayed-hasan/BengaliClinicalMT
+  - junayed-hasan/smile-recognition-fusion
+  - junayed-hasan/occupational-stress-ml
+  - junayed-hasan/Clinical-Language-Model-Distillation-Pruning-Quantization
+  - junayed-hasan/leaf-disease-ai
+  - junayed-hasan/spontaneous-smile-recognition
+  - junayed-hasan/Life-Satisfaction-Machine-Learning
+  - junayed-hasan/llendify
+  - junayed-hasan/alzheimers-disease-detection
+  - junayed-hasan/Adult-Income-Prediction-Machine-Learning

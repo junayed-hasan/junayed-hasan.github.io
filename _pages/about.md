@@ -2,16 +2,16 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+subtitle: MSE Computer Science Student & AI Researcher | Johns Hopkins University
 
 profile:
   align: right
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+    <p>Graduate Researcher</p>
+    <p>Johns Hopkins University</p>
+    <p>Baltimore, MD</p>
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
@@ -19,16 +19,49 @@ social: true # includes social icons at the bottom of the page
 announcements:
   enabled: true # includes a list of news items
   scrollable: true # adds a vertical scroll bar if there are more than 3 news items
-  limit: 5 # leave blank to include all the news in the `_news` folder
+  limit: 6 # leave blank to include all the news in the `_news` folder
 
 latest_posts:
-  enabled: true
+  enabled: false
   scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+> **I design efficient machine learning and language technologies for healthcare and low-resource settings.**
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+I am a Master's student in Computer Science at Johns Hopkins University and an AI researcher focusing on efficiency-centric machine learning, natural language processing, and healthcare applications. I am interested in models that reason, translate, and make predictions under realistic compute, memory, and data constraints.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+At Johns Hopkins, I am advised by **[Prof. Anjalie Field](https://anjalief.github.io/)** and work with **[Prof. Philipp Koehn](https://www.cs.jhu.edu/~phi/)** on low-resource machine translation and reference-free evaluation, developing reinforcement learning methods that use paraphrase consensus instead of parallel corpora. As a research intern at **[Mayo Clinic](https://www.mayo.edu/)**, I build end-to-end clinical ML pipelines for blood utilization forecasting and biomarker detection, with an emphasis on deployable systems that integrate into real hospital workflows.
+
+Previously, at North South University, I completed my undergraduate thesis on hybrid quantum-classical machine learning under **[Prof. Mahdy Rahman Chowdhury](https://scholar.google.com/citations?user=PxNOguMAAAAJ)**, who received the **ICO Galileo Galilei Medal Award** in 2023. I currently work with Prof. Mahdy as an AI Research Assistant at Mahdy Research Academy, where I lead projects on model compression for clinical language models (*OptimCLM*), efficient deep metric learning (*Shadow Loss*), hybrid quantum-classical architectures, and multimodal medical imaging models. My work has appeared in venues such as **IEEE ICDM**, **Pattern Recognition Letters**, **International Journal of Medical Informatics**, **PLOS ONE**, and **IEEE Access**, along with several manuscripts currently under review at top-tier conferences and journals.
+
+---
+
+### Current Positions
+
+- **Graduate Researcher**, Center for Language and Speech Processing (CLSP), Johns Hopkins University
+- **Data Science / AI Research Intern**, Mayo Clinic (Transfusion Medicine & Pathology)
+- **AI Research Assistant & Mentor**, Mahdy Research Academy (remote)
+
+---
+
+### Research Areas
+
+<div class="row mt-3">
+    <div class="col-sm-6 mt-3 mt-md-0 mb-4">
+        <strong>Efficient ML & Model Compression</strong><br>
+        <small>Knowledge distillation, pruning, quantization for edge deployment</small>
+    </div>
+    <div class="col-sm-6 mt-3 mt-md-0 mb-4">
+        <strong>Low-Resource & Multilingual NLP</strong><br>
+        <small>Machine translation, reference-free evaluation, cross-lingual learning</small>
+    </div>
+    <div class="col-sm-6 mt-3 mt-md-0 mb-4">
+        <strong>Clinical Decision Support & Medical Imaging</strong><br>
+        <small>Healthcare AI, biomarker detection, clinical outcome prediction</small>
+    </div>
+    <div class="col-sm-6 mt-3 mt-md-0 mb-4">
+        <strong>Hybrid Quantum-Classical Learning</strong><br>
+        <small>Knowledge transfer to quantum neural networks, efficient quantum architectures</small>
+    </div>
+</div>

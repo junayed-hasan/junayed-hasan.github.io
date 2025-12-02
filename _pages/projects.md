@@ -2,10 +2,10 @@
 layout: page
 title: projects
 permalink: /projects/
-description: A growing collection of your cool projects.
+description: Portfolio of industry, research, and open-source projects in AI/ML, healthcare analytics, and software engineering.
 nav: true
 nav_order: 3
-display_categories: [work, fun]
+display_categories: [industry, research, github]
 horizontal: false
 ---
 

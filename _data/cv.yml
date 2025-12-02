@@ -2,96 +2,253 @@
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
-    - name: Date of Birth
-      value: 14th March 1879
+      value: Mohammad Junayed Hasan
+    - name: Email
+      value: mhasan21@jhu.edu
+    - name: Phone
+      value: +1 (443) 529-3095
     - name: Languages
-      value: English, German
+      value: Bengali (Native), English (Fluent), Hindi (Conversational), Urdu (Conversational)
+    - name: Location
+      value: Baltimore, MD, USA
+
+- title: Research Summary
+  type: map
+  contents:
+    - name: Overview
+      value: Efficiency-focused NLP and ML researcher aiming to develop robust methods for reasoning, multimodal learning, and multilingual processing under compute, memory, and data constraints. Track record includes 8+ peer-reviewed publications, a $35K research grant for women's health in South Asia, and multiple merit scholarships. NeurIPS workshop and IEEE ICDM oral+poster presenter with 4+ years of RA/TA and US industry research experience.
 
 - title: Education
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+    - title: Master of Science in Engineering in Computer Science
+      institution: Johns Hopkins University, Baltimore, MD
+      year: Expected Dec 2025
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
+        - "GPA: 3.83/4.00"
+        - "<i>Thesis:</i> ParaCycle - Reinforcement Learning with Bidirectional Paraphrase Consensus for Reference-Free Translation"
+        - "<i>Research Advisor:</i> Prof. Philipp Koehn | <i>Academic Advisor:</i> Prof. Anjalie Field"
+        - "<i>Relevant Coursework:</i> Natural Language Processing, Advanced NLP, Machine Translation, Human Language Technology, Machine Learning, Computer Vision, Cloud Computing"
+    - title: Bachelor of Science in Computer Science and Engineering
+      institution: North South University, Dhaka, Bangladesh
+      year: Dec 2023
       description:
-        - Description 1.
-        - Description 2.
+        - "GPA: 3.95/4.00 (4.00/4.00 in CS), <i>Summa Cum Laude</i>, Top 0.4% of Class"
+        - "<i>Thesis:</i> Bridging classical and quantum machine learning - Knowledge transfer from classical to quantum neural networks using knowledge distillation"
+        - "<i>Advisor:</i> Prof. Mahdy Rahman Chowdhury"
 
-- title: Experience
+- title: Research Experience
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
+    - title: Graduate Researcher
+      institution: Center for Language and Speech Processing (CLSP), Johns Hopkins University, Baltimore, MD
+      year: Jan 2025 - Present
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
+        - "Developed <b>ParaCycle</b>, a novel reinforcement learning framework for low-resource machine translation using bidirectional paraphrase consensus, eliminating dependency on parallel corpora while improving translation quality on four English↔X language pairs using FLORES-200 benchmark"
+        - "Designed and implemented semantic consistency rewards and customized RL objectives for unsupervised quality estimation, formulating translation quality optimization as a reinforcement learning problem"
+        - "Architected <b>HadaSmileNet</b>, a Hadamard-fusion framework integrating handcrafted and deep-learning features for genuine smile recognition, accepted at <i>IEEE ICDM 2025</i> with oral+poster presentation"
+        - "Achieved 26% reduction in parameters, training time, and inference latency while maintaining superior accuracy compared to multi-task learning baselines in facial emotion recognition"
+        - "Collaborated with domain experts and previous authors to ensure reproducibility and clinical relevance across both NLP and computer vision research directions"
+    
+    - title: Research Intern
+      institution: Mayo Clinic, Rochester, MN
+      year: May 2025 - Present
       description:
-        - Description 1.
-        - Description 2.
-
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
-
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
+        - "Extended HER2 biomarker detection across 7 cancer types via domain adaptation techniques; formulated cross-cancer generalization as transfer learning problem; achieved >90% accuracy across all classes"
+        - "Developed and evaluated ML models (LGB, XGB, LSTM, Transformers) for blood utilization prediction; engineered features from multi-modal clinical time-series data; reduced forecast error by 3.8% vs. baselines"
+        - "Collaborated with pathologists to formalize blood transfusion assessment as computational problem; reduced manual analysis time by >75% through automated pipeline design"
+        - "Designed and implemented end-to-end analytics platform serving real-time predictions to 500+ clinicians; optimized model serving latency to sub-200 ms for clinical workflow integration"
+    
+    - title: AI Research Assistant
+      institution: Mahdy Research Academy, North South University (Remote)
+      year: Jan 2024 - Present
       description:
+        - "Conceptualized 15+ research projects across NLP, computer vision, and quantum machine learning; co-authored 12 high-quality manuscripts with research groups, submitting 9 to Q1 journals"
+        - "Created and managed research infrastructure and educational materials used by 150+ students across groups"
+        - "Developed <b>CLKD-MED</b> and <b>TransMed</b>, the first interpretable cross-lingual frameworks for clinical outcome prediction in low-resource languages using multi-strategy back-translation and distillation; now under review at <i>Expert Systems with Applications</i> and <i>CMPB</i> respectively"
+        - "Led the design of <b>TabFusion</b>, a multimodal framework with lightweight early fusion of tabular & image data using GCNs for skin cancer detection, now conditionally accepted at <i>Knowledge-Based Systems</i>"
+        - "Supervised research on developing <b>Distill-FusionNet</b>, a lightweight and interpretable architecture for cross-domain lung cancer diagnosis, now under review at <i>Knowledge-Based Systems</i>"
+        - "Pioneered hybrid quantum-classical frameworks including <b>CQ-CNN</b> (achieving 1300× compression for Alzheimer's detection) and <b>QuantumMedKD</b>, with manuscripts published in <i>PLOS ONE</i> and under review in <i>Alexandria Engineering Journal</i>, respectively"
+        - "Directed research on <b>QSiamNet</b>, the first hybrid quantum-classical siamese network for enhanced similarity-based learning, resulting in manuscript now under review at <i>Neurocomputing</i>"
+    
+    - title: AI Research Engineer
+      institution: Apurba Technologies Ltd., Dhaka, Bangladesh
+      year: Nov 2023 - Jul 2024
+      description:
+        - "Designed <b>DeepMarkerNet</b>, a novel multi-task transformer framework for genuine smile detection via auxiliary supervision from handcrafted features to automatic transformer features"
+        - "Improved state-of-the-art accuracy by 1-3% across all CNN, RNN, and transformer-based methods on 4 benchmark datasets; first-authored research published in <i>Pattern Recognition Letters</i>"
+        - "Secured $35K research funding through proposal development and presentation at a national conference"
+    
+    - title: Undergraduate Research Assistant
+      institution: Apurba NSU R&D Lab, North South University, Dhaka, Bangladesh
+      year: Jan 2023 - Nov 2023
+      description:
+        - "Developed <b>OptimCLM</b>, a compression pipeline combining ensemble distillation, pruning, and quantization, achieving 22.9× compression and 28.7× latency reduction while retaining 98% performance"
+        - "First-authored publication in <i>International Journal of Medical Informatics</i>; achieved state-of-the-art on 4 clinical NLP tasks fine-tuning 32 clinical LLMs on EHR data using the proposed method"
+    
+    - title: Undergraduate Researcher
+      institution: North South University, Dhaka, Bangladesh
+      year: May 2022 - Dec 2023
+      description:
+        - "Developed first hybrid quantum-classical framework via logit distillation, bridging classical networks with quantum circuits; manuscript under review in <i>IEEE Transactions in Quantum Engineering</i> with 12 preprint citations; advised by Dr. Mahdy Rahman Chowdhury, <b><i>ICO Galileo Galilei Medal Award winner, 2023</i></b>"
+        - "Co-first authored <b>Shadow Loss</b>, reducing memory complexity from O(N²) to O(N) for deep metric learning while accelerating convergence 1.5-2×; validated on CUB-200, CARS-196, and large-scale retrieval datasets; under review at <i>CVPR 2026</i>"
+        - "Engineered feature learning and LLM-based approaches for life satisfaction prediction from tabular data, achieving 93.8% accuracy; published in <i>Heliyon</i> (May 2024) with deployed public model"
 
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
+- title: Peer-Reviewed Publications
+  type: list
+  contents:
+    - "*: Equal contributions"
+    - "<b>[2025]</b> <b>Mohammad Junayed Hasan*</b>, Suhra Noor*, and Sifat Momen. \"A novel framework for detection of noncommunicable diseases via prompt engineering and domain knowledge integration\" (2025), <i>Alexandria Engineering Journal</i> <b>(AEJ)</b>, vol. 133, pp. 586–614. [<a href='https://www.canva.com/design/DAGXPZF1d4Y/gJ4MmaD7NvZVqGHyILIDgA/view'>Presentation</a>] [<a href='https://authors.elsevier.com/tracking/article/details.do?aid=6767&jid=AEJ&surname=Momen'>Status</a>]"
+    - "<b>[2025]</b> <b>Mohammad Junayed Hasan</b>, Nabeel Mohammed, Shafin Rahman, and Philipp Koehn. \"HadaSmileNet - Hadamard fusion of handcrafted and deep-learning features for enhancing facial emotion recognition of genuine smiles\" (2025), <i>IEEE International Conference on Data Mining</i> <b>(ICDM)</b>. Presented (oral + poster) November 15, 2025. [<a href='https://arxiv.org/abs/2509.18550'>Paper</a>] [<a href='https://github.com/junayed-hasan/smile-recognition-fusion'>Code</a>] [<a href='https://drive.google.com/file/d/1JmfrGKprLFPondYERzvrwMY54Kui0Ky7/view'>Poster</a>] [<a href='https://www.youtube.com/watch?v=A92n-ZW7qao'>Presentation</a>]"
+    - "<b>[2025]</b> <b>Mohammad Junayed Hasan</b>, Jannat Sultana, Silvia Ahmed, and Sifat Momen. \"Early detection of occupational stress - Enhancing workplace safety with machine learning and large language models\" (2025), <b>PLOS ONE</b>, 20(6), e0323265. Accepted to <i>Women in Machine Learning Workshop@</i> <b>NeurIPS</b> <i>2025.</i> [<a href='https://openreview.net/forum?id=JCoBAri3Ov'>Abstract</a>] [<a href='https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0323265'>Paper</a>] [<a href='https://github.com/junayed-hasan/occupational-stress-ml'>Code</a>]"
+    - "<b>[2025]</b> <b>Mohammad Junayed Hasan</b>, Fuad Rahman, and Nabeel Mohammed. \"OptimCLM - Optimizing clinical language models for predicting patient outcomes via knowledge distillation, pruning and quantization\" (2025), <i>International Journal of Medical Informatics</i> <b>(IJMEDI)</b>, <i>195, 105764.</i> [<a href='https://www.sciencedirect.com/science/article/abs/pii/S1386505624004271'>Paper</a>] [<a href='https://github.com/junayed-hasan/Clinical-Language-Model-Distillation-Pruning-Quantization'>Code</a>]"
+    - "<b>[2025]</b> <b>Mohammad Junayed Hasan</b>, Suvodeep Mazumdar, and Sifat Momen. \"Deployable deep learning for cross-domain plant leaf disease detection via ensemble learning, knowledge distillation, and quantization\" (2025), <b>IEEE Access</b>, vol. 13, pp. 140313-140336. [<a href='https://ieeexplore.ieee.org/document/11107438'>Paper</a>] [<a href='https://github.com/junayed-hasan/leaf-disease-ai'>Code</a>]"
+    - "<b>[2025]</b> Mominul Islam, <b>Mohammad Junayed Hasan</b>, and M.R.C. Mahdy. \"CQ-CNN - A lightweight hybrid classical-quantum convolutional neural network for Alzheimer's disease detection using 3D structural brain MRI\" (2025), <b>PLOS ONE</b>, <i>20(9), e0331870.</i> [<a href='https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0331870'>Paper</a>] [<a href='https://github.com/mominul-ssv/alz-cq-cnn'>Code</a>]"
+    - "<b>[2024]</b> <b>Mohammad Junayed Hasan</b>, Kazi Rafat, Fuad Rahman, Nabeel Mohammed, and Shafin Rahman. \"DeepMarkerNet - Leveraging supervision from the Duchenne Marker for spontaneous smile recognition\" (2024), <i>Pattern Recognition Letters</i> <b>(PRL)</b>, <i>186, 148-155.</i> [<a href='https://www.sciencedirect.com/science/article/abs/pii/S0167865524002770'>Paper</a>] [<a href='https://github.com/junayed-hasan/spontaneous-smile-recognition'>Code</a>]"
+    - "<b>[2024]</b> Alif Elham Khan*, <b>Mohammad Junayed Hasan*</b>, Humayra Anjum, Nabeel Mohammed, and Sifat Momen. \"Predicting life satisfaction using machine learning and explainable AI\" (2024), <b>Heliyon</b>, <i>10(10).</i> [<a href='https://www.sciencedirect.com/science/article/pii/S2405844024071895'>Paper</a>] [<a href='https://github.com/junayed-hasan/Life-Satisfaction-Machine-Learning'>Code</a>]"
+
+- title: Preprints & Submissions (Selected)
+  type: list
+  contents:
+    - "<b>[Under Review]</b> Alif Elham Khan*, <b>Mohammad Junayed Hasan*</b>, Humayra Anjum*, and Nabeel Mohammed. \"Shadow loss - Memory-linear deep metric learning for efficient training\", <b>CVPR 2026.</b> [<a href='https://arxiv.org/abs/2311.14012'>Preprint</a>] [<a href='https://drive.google.com/file/d/1xTpsg0XQdu2p9jVM9CSdAT-1WLj9N2Ln/view'>Status</a>]"
+    - "<b>[Under Review]</b> <b>Mohammad Junayed Hasan</b>, and M.R.C. Mahdy. \"Bridging classical and quantum machine learning - Knowledge transfer from classical to quantum neural networks using knowledge distillation\", <i>IEEE Transactions on Quantum Engineering</i> <b>(IEEE TQE)</b>. [<a href='https://arxiv.org/abs/2311.13810'>Preprint</a>] [<a href='https://github.com/junayed-hasan/Quantum-Machine-Learning'>Code</a>] [<a href='https://drive.google.com/file/d/1dYBs1UApTCxusu55b73DVXu7sO48uCGU/view'>Poster</a>] [<a href='https://docs.google.com/presentation/d/1uypI_sIZIYemAvRJUWSYqitdUNU8PBH3yP6hgKf-w-A/edit'>Presentation</a>] [<a href='https://drive.google.com/file/d/1MwDuqQn8ky_yw83ohrhnyRjNofWCMvzN/view'>Status</a>]"
+    - "<b>[Under Review]</b> Mahir Afser Pavel, Rafiul Islam, <b>Mohammad Junayed Hasan</b>, and M.R.C. Mahdy. \"CLKD-MED - A novel cross-lingual knowledge distillation framework for multilingual clinical outcome prediction\", <i>Expert Systems with Applications</i> <b>(ESWA)</b>. [<a href='https://track.authorhub.elsevier.com/?uuid=8ae14118-580b-4812-b752-9efd2449cad1'>Status</a>]"
+    - "<b>[Under Review]</b> Md. Talat Mahmud Tomal, Zahrul Jannat Peya, Nurzahan Akter Joly, <b>Mohammad Junayed Hasan</b>, and M.R.C. Mahdy. \"Distill-FusionNet - Lightweight and interpretable deep learning for cross-domain lung cancer diagnosis\", <i>Knowledge-Based Systems</i> <b>(KBS)</b>. [<a href='https://track.authorhub.elsevier.com/?uuid=90589ae6-0fa2-48ba-ad71-bdab13e5ab44'>Status</a>]"
+    - "<b>[Under Review]</b> Waqilur Rahman Chowdhury, Urmi Sen, <b>Mohammad Junayed Hasan</b>, and M.R.C. Mahdy. \"QSiamNet - A hybrid quantum-classical siamese network for enhanced similarity-based learning\", <i><b>Neurocomputing</b></i>. [<a href='https://drive.google.com/file/d/1iI9cNc93pVJ9VkZJYltUuBD_xSUEGmDg/view'>Status</a>]"
+    - "<b>[Conditional Accept]</b> Rashik Iram Chowdhury, Nusrat Kabir Nuha, Muhtasimul Hasan, <b>Mohammad Junayed Hasan</b>, and M.R.C. Mahdy. \"TabFusion - Lightweight early fusion of tabular and image data with graph-convolutional neural networks for skin cancer detection\", <i>Knowledge-Based Systems</i> <b>(KBS)</b>. [<a href='https://track.authorhub.elsevier.com/?uuid=e76006c6-597c-46b3-b9ce-fb061b309f1c'>Status</a>]"
+    - "<b>[1st Revision]</b> MD Nahid Hassan Nishan*, <b>Mohammad Junayed Hasan*</b>, and M.R.C. Mahdy. \"QuantumMedKD - A hybrid quantum-classical knowledge distillation framework for medical image analysis\", <i>Alexandria Engineering Journal</i> <b>(AEJ)</b>. [<a href='https://track.authorhub.elsevier.com/?uuid=1a991537-0633-4b57-ac89-ea9827caa427'>Status</a>]"
+    - "<b>[With Editor]</b> Rakib Ullah, Mimjamam Ul Haque Monmoy, Syed Nadim Mehdi, <b>Mohammad Junayed Hasan</b>, and M.R.C. Mahdy. \"TransMed - A cross-lingual framework for clinical outcome prediction in low-resource healthcare settings,\" <i>PLOS Digital Health</i> <b>(PDIG)</b>. [<a href='https://drive.google.com/file/d/1yGeGLwRR-I0kWZzvNTB_psaYVzQF9mPV/view'>Status</a>]"
+
+- title: Presentations & Invited Talks
+  type: time_table
+  contents:
+    - year: 2025
+      items:
+        - "<b>Conference:</b> \"Hadamard fusion for facial emotion recognition\" | <i>IEEE ICDM</i> (Oral+Poster) [<a href='https://docs.google.com/presentation/d/1HZJn0jxo6ZEmxgLShjKVceFgQYdMYGHmrYEKKKb-LBo/edit'>Slides</a>] [<a href='https://drive.google.com/file/d/1JmfrGKprLFPondYERzvrwMY54Kui0Ky7/view'>Poster</a>]"
+        - "<b>Conference:</b> \"Predictive blood utilization for transfusion operations\" | <i>VIBE Summit</i>, Mayo Clinic [<a href='https://drive.google.com/file/d/1Fp7WXMXQPeAUCItP48m02G3U_wRQbcHB/view'>Poster</a>]"
+        - "<b>NLP Reading Group:</b> \"Are Reasoning Capabilities Present in Base Models?\" | JHU CLSP [<a href='https://docs.google.com/presentation/d/1L0ebztzODimLlQfvGuvLkHBILVmdbWABkIUd-MCF-jE/edit'>Slides</a>]"
+        - "<b>NLP Reading Group:</b> \"When (and why) RL is effective for reasoning problem?\" | JHU CLSP [<a href='https://docs.google.com/presentation/d/1Ek8dHZzAuaGC8v_auyOXRA-gIoOkBMfpA2ZcmeuYwiQ/edit'>Slides</a>]"
+        - "<b>Invited Talk:</b> \"Evaluating an ambient clinical scribe technology\" | Mayo Clinic Research Symposium [<a href='https://docs.google.com/presentation/d/1gu2Idy5vkcD88f5T2K77rEapRAW7wex97t8_z8FS97o/edit'>Slides</a>]"
+        - "<b>Course Research:</b> \"LifeEmbedding - Cloud-native human trajectory modeling\" | JHU Cloud Computing [<a href='https://docs.google.com/presentation/d/1ofmLR-cerWLiDxapWvUOKW_6Cv6DnDuUWQQmVZplWKM/edit'>Slides</a>]"
+        - "<b>Course Research:</b> \"ICL and CoT based efficient data annotation for low-resource texts\" | JHU NLP [<a href='https://docs.google.com/presentation/d/1NFGeD1a7U1b3DdY0eHop32D2arlx2O7UxwCB5u_dObE/edit'>Poster</a>]"
+        - "<b>Course Research:</b> \"Multi-modal lip reading enhancement with textual and visual cues\" | JHU CV [<a href='https://www.canva.com/design/DAGlMFd7eyg/ArbcHyruIGnRmEoQ5Ul50Q/view'>Slides</a>]"
+    - year: 2024
+      items:
+        - "<b>Course Research:</b> \"MT quality evaluation for low-resource clinical texts\" | JHU Machine Translation [<a href='https://www.canva.com/design/DAGecRFuenw/oVRPfaFA8d_1yopEhNNNDA/view'>Slides</a>]"
+        - "<b>Invited Talk:</b> \"Responsible AI practices in prompt engineering\" | BIGD, BRAC University [<a href='https://docs.google.com/presentation/d/1EoucSQPWSniXeiuUYWkKRg1hnahRDHjZ/edit'>Slides</a>]"
+    - year: 2023
+      items:
+        - "<b>Conference:</b> \"Predicting risks of miscarriage with SNOMED CT\" | SNOMED CT Expo [<a href='https://docs.google.com/presentation/d/1nbR-OIzbYd1xCpYWd7-Bc1Es23fWhVxXGrIMTCpN8ec/edit'>Slides</a>] [<a href='https://drive.google.com/file/d/1A8kudNAVJfjSozqk5cIY_qOfvMKFOBBG/view'>Poster</a>]"
+
+- title: Teaching Experience
+  type: time_table
+  contents:
+    - title: Graduate Teaching Assistant - Machine Learning
+      institution: Johns Hopkins University, Baltimore, MD
+      year: Jan 2025 - May 2025
+      description:
+        - "Instructed 200+ graduate students in advanced ML, prompt engineering, and AI agents for Big Data Machine Learning course; used coding assistants to boost coding efficiency by >40%"
+        - "Developed 6 project-based assignments solving real-world business problems with big data frameworks"
+        - "Led weekly lab sessions on Scikit-learn and PyTorch; provided debugging and technical mentorship, receiving 99% positive teaching evaluations for instructional support and assignment design"
+    
+    - title: AI Instructor & Research Mentor
+      institution: Mahdy Research Academy, North South University (Remote)
+      year: Jan 2024 - Present
+      description:
+        - "Developed and delivered comprehensive fundamental and applied research curricula in deep learning, NLP, and quantum machine learning for 150+ students"
+        - "Ideated and supervised 15+ research projects in machine translation, medical imaging and clinical NLP, achieving >90% completion rate"
+        - "Mentored students through complete research lifecycle resulting in 12 manuscripts (9 submitted to Q1 journals); created open-source educational materials - [<a href='https://github.com/junayed-hasan/Deep-Learning-PyTorch'>DL Course</a>] [<a href='https://github.com/junayed-hasan/Quantum-Machine-Learning-Qiskit-PyTorch'>QML Course</a>]"
+        - "Teaching slides - [<a href='https://docs.google.com/presentation/d/1bMTMs18DDSssuJLTjVTocJ1PwEOwpH86o9aSkmF9GYo/edit'>NLP</a>] [<a href='https://docs.google.com/presentation/d/1IcDiAcTQA0Ty5FR3ABcePRI3iaqTmaY9w1MX9TFoFvg/edit?slide=id.g267686a3612_0_8#slide=id.g267686a3612_0_8'>GANs</a>] [<a href='https://docs.google.com/presentation/d/10DZNNxycPr9-72l_pctcSKQSRieeRMGrrjGRd6mNU4k/edit'>Model Efficiency</a>] [<a href='https://docs.google.com/presentation/d/1Er5zgV53YwLq34reYpA7WL2PLhN2WjSQL1i4OLgGG-0/edit'>QML</a>]"
+    
+    - title: Prompt Engineering Instructor
+      institution: BRAC Institute of Governance and Development (BIGD), Dhaka, Bangladesh
+      year: Nov 2023 - Dec 2023
+      description:
+        - "Designed and delivered training course on prompt engineering for data analysis, web development, and app development to 50+ beginner and expert freelancers"
+        - "Improved productivity by 70% and monthly income by $500/month on average; teaching slides - [<a href='https://docs.google.com/presentation/d/1IbKaZQ97WalgQPFrwUKXW_c26xNcTPDRiAdeGSl-3U8/edit'>Data Analysis</a>] [<a href='https://docs.google.com/presentation/d/1JQ1IGNYGlbHV5RPIPa03WAOYD6IsaqqpXgY4XDVXIa8/edit'>Web Dev</a>] [<a href='https://docs.google.com/presentation/d/1z3emF5r99W6c37W7T-DVileFC4U_z5Lg-gReCjtRm9o/edit'>App Dev</a>]"
+    
+    - title: Undergraduate Teaching Assistant
+      institution: North South University, Dhaka, Bangladesh
+      year: Sep 2020 - Nov 2023
+      description:
+        - "Instructed 800+ undergraduate students across 3 departments in Python and Java fundamentals, Intro to Machine Learning, Neural Networks and Pattern Recognition, and Intro to NLP courses"
+        - "Designed lab materials and led weekly programming sessions, improving student performance by 10-15%; provided technical mentorship for end-to-end term projects with 100% on-time completion"
+
+- title: Fellowships, Grants & Awards
+  type: time_table
+  contents:
+    - year: 2024
+      items:
+        - "<b>Summa Cum Laude Honors</b> — North South University, Dhaka, Bangladesh<br>Highest academic distinction; CGPA 3.95/4.00, ranked 2nd (top 0.4%) in class"
+    - year: 2023
+      items:
+        - "<b>Research Grant — \"Best Innovation Idea\"</b> — AdSEARCH, icddr,b, Dhaka, Bangladesh<br><b>$35,000</b> awarded for research proposal on \"Meno-Chat - An Assistive Chatbot Against Menstrual Problems and Menopause Health for Women\" addressing Sexual and Reproductive Health and Rights in Bangladesh [<a href='https://drive.google.com/file/d/1EPdAhQMqqMh9kPtZxJoZO9T5bdxSx1ZF/view'>Proposal</a>] [<a href='https://drive.google.com/file/d/1rCMvkN4FPWkYDzLS-UapzbzYGYyXGTBz/view'>Poster</a>]"
+    - year: 2022
+      items:
+        - "<b>Full-Merit Scholarship</b> — North South University, Dhaka, Bangladesh<br>Awarded for academic excellence, consistently ranked within top 1% of class"
+    - year: 2017
+      items:
+        - "<b>Two-Year Talentpool Scholarship</b> — Dhaka Education Board, Bangladesh Government<br>National standing of 124 out of 1,651,523 students in the Secondary School Certificate (SSC) board examination"
 
 - title: Open Source Projects
   type: time_table
   contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
+    - title: <a href="https://github.com/junayed-hasan/Deep-Learning-PyTorch">Deep Learning with PyTorch</a>
+      year: 2024
+      description: Educational repository with comprehensive Jupyter notebooks covering image classification, object detection, NLP, and advanced deep learning techniques
+    
+    - title: <a href="https://github.com/junayed-hasan/Quantum-Machine-Learning-Qiskit-PyTorch">Quantum Machine Learning - Qiskit & PyTorch</a>
+      year: 2023 - 2024
+      description: Comprehensive tutorials and implementations for quantum machine learning using PyTorch and Qiskit, including hybrid quantum-classical models with TorchQuantum
+    
+    - title: <a href="https://github.com/junayed-hasan/life-trajectory-embeddings">LifeEmbedding</a>
+      year: 2025
+      description: A cloud-native system to model and visualize human life as a trajectory embedding of events with retrieval-augmentation and vector databases
+    
+    - title: <a href="https://github.com/junayed-hasan/BengaliClinicalMT">BengaliClinicalMT</a>
+      year: 2024
+      description: Official repository for machine translation quality evaluation via downstream tasks for low-resource Bengali clinical texts, including datasets, preprocessing pipelines, and clinical outcome prediction
 
-- title: Honors and Awards
-  type: time_table
-  contents:
-    - year: 1921
-      items:
-        - Nobel Prize in Physics
-        - Matteucci Medal
-    - year: 2029
-      items:
-        - Max Planck Medal
-
-- title: Academic Interests
+- title: Research Interests
   type: nested_list
   contents:
-    - title: Topic 1.
+    - title: Efficient ML & Model Compression
       items:
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
+        - Knowledge distillation, pruning, and quantization for clinical and edge deployment
+        - Resource-constrained deep learning for healthcare applications
+    - title: Low-Resource & Multilingual NLP
       items:
-        - Description 1.
-        - Description 2.
+        - Machine translation and reference-free evaluation
+        - Cross-lingual learning for clinical texts
+        - Reinforcement learning for translation quality optimization
+    - title: Clinical Decision Support & Medical Imaging
+      items:
+        - Healthcare AI for biomarker detection and disease diagnosis
+        - Clinical outcome prediction using ML and LLMs
+        - Multimodal medical imaging analysis
+    - title: Hybrid Quantum-Classical Learning
+      items:
+        - Knowledge transfer to quantum neural networks
+        - Efficient quantum architectures for real-world applications
+        - Quantum machine learning for medical imaging
 
-- title: Other Interests
+- title: Technical Skills
   type: list
   contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+    - "<b>Programming:</b> Python, Java, C++, SQL, R, MATLAB"
+    - "<b>ML & Deep Learning:</b> PyTorch, TensorFlow, Hugging Face Transformers, Scikit-learn, XGBoost"
+    - "<b>NLP:</b> BERT variants, T5, GPT, spaCy, NLTK, Machine Translation, Prompt Engineering"
+    - "<b>Quantum Computing:</b> Qiskit, PennyLane, TorchQuantum, Quantum Neural Networks"
+    - "<b>Research & Development:</b> Git, Docker, AWS/GCP, Weights & Biases, TensorBoard, OpenCV, LaTeX"
+
+- title: Service to Research Community
+  type: map
+  contents:
+    - name: Peer Review
+      value: "Served as reviewer for 10+ manuscripts across multiple academic Q1/Q2 journals (Scientific Reports, ESWA, BSPC, and others) in AI, ML, and NLP domains. 5+ reviews currently in progress. [<a href='https://drive.google.com/drive/folders/1B1hol38NSKpZA3QnaArea_nCWC8Op4Tn'>Certificates</a>]"
+
+- title: References
+  type: list
+  contents:
+    - "<table style='width:100%'><tr><td style='width:50%; vertical-align:top'><b>Dr. Philipp Koehn</b><br>Professor of Computer Science<br>Johns Hopkins University<br>Email: <a href='mailto:phi@jhu.edu'>phi@jhu.edu</a></td><td style='width:50%; vertical-align:top'><b>Dr. Mahdy Rahman Chowdhury</b><br>Professor of ECE<br>North South University<br>Email: <a href='mailto:mahdy.chowdhury@northsouth.edu'>mahdy.chowdhury@northsouth.edu</a></td></tr></table>"
+    - "<table style='width:100%'><tr><td style='width:50%; vertical-align:top'><b>Dr. Sifat Momen</b><br>Professor of ECE<br>North South University<br>Email: <a href='mailto:sifat.momen@northsouth.edu'>sifat.momen@northsouth.edu</a></td><td style='width:50%; vertical-align:top'><b>Dr. Nabeel Mohammed</b><br>Associate Professor of ECE<br>North South University<br>Email: <a href='mailto:nabeel.mohammed@northsouth.edu'>nabeel.mohammed@northsouth.edu</a></td></tr></table>"
