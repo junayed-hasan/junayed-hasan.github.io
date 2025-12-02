@@ -1,0 +1,117 @@
+<!DOCTYPE html> <html lang="en"> <head> <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"> <meta charset="utf-8"> <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"> <meta http-equiv="X-UA-Compatible" content="IE=edge"> <title> LLendify | Mohammad Junayed Hasan </title> <meta name="author" content="Mohammad Junayed Hasan"> <meta name="description" content="AI-powered loan eligibility system using LLMs to analyze bank statements and provide instant recommendations"> <meta name="keywords" content="machine learning, deep learning, NLP, AI research, data science, healthcare AI, quantum machine learning, computer vision, MLOps, cloud computing"> <meta property="og:site_name" content="Mohammad Junayed Hasan"> <meta property="og:type" content="website"> <meta property="og:title" content="Mohammad Junayed Hasan | LLendify"> <meta property="og:url" content="https://junayed-hasan.github.io/projects/llendify/"> <meta property="og:description" content="AI-powered loan eligibility system using LLMs to analyze bank statements and provide instant recommendations"> <meta property="og:locale" content="en"> <meta name="twitter:card" content="summary"> <meta name="twitter:title" content="LLendify"> <meta name="twitter:description" content="AI-powered loan eligibility system using LLMs to analyze bank statements and provide instant recommendations"> <script type="application/ld+json">
+    {
+        "author":
+        {
+            "@type": "Person",
+            "name": "Mohammad Junayed Hasan"
+        },
+        "url": "https://junayed-hasan.github.io/projects/llendify/",
+        "@type": "WebSite",
+        "description": "AI-powered loan eligibility system using LLMs to analyze bank statements and provide instant recommendations",
+        "headline": "LLendify",
+        
+        "sameAs": ["https://github.com/junayed-hasan","https://www.linkedin.com/in/mjhasan21","https://scholar.google.com/citations?user=QwIfzvgAAAAJ","https://orcid.org/0009-0008-3451-0267"],
+        
+        "name": "Mohammad Junayed Hasan",
+        "@context": "https://schema.org"
+    }
+  </script> <link rel="stylesheet" href="/assets/css/bootstrap.min.css?a4b3f509e79c54a512b890d73235ef04"> <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/mdbootstrap@4.20.0/css/mdb.min.css" integrity="sha256-jpjYvU3G3N6nrrBwXJoVEYI/0zw8htfFnhT9ljN3JJw=" crossorigin="anonymous"> <link defer rel="stylesheet" href="/assets/css/academicons.min.css?f0b7046b84e425c55f3463ac249818f5"> <link defer rel="stylesheet" href="/assets/css/scholar-icons.css?62b2ac103a88034e6882a5be5f3e2772"> <link defer rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:100,300,400,500,700|Material+Icons&amp;display=swap"> <link defer rel="stylesheet" href="/assets/css/jekyll-pygments-themes-github.css?591dab5a4e56573bf4ef7fd332894c99" media="" id="highlight_theme_light"> <link rel="shortcut icon" href="data:image/svg+xml,&lt;svg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20100%20100%22&gt;&lt;text%20y=%22.9em%22%20font-size=%2290%22&gt;%F0%9F%A7%A0&lt;/text&gt;&lt;/svg&gt;"> <link rel="stylesheet" href="/assets/css/main.css?d41d8cd98f00b204e9800998ecf8427e"> <link rel="canonical" href="https://junayed-hasan.github.io/projects/llendify/"> <script src="/assets/js/theme.js?4cd6edf741c75aac92971c2b7b959939"></script> <link defer rel="stylesheet" href="/assets/css/jekyll-pygments-themes-native.css?5847e5ed4a4568527aa6cfab446049ca" media="none" id="highlight_theme_dark"> <script>
+    initTheme();
+  </script> </head> <body class="fixed-top-nav "> <header> <nav id="navbar" class="navbar navbar-light navbar-expand-sm fixed-top" role="navigation"> <div class="container"> <a class="navbar-brand title font-weight-lighter" href="/"> <span class="font-weight-bold">Mohammad Junayed</span> Hasan </a> <button class="navbar-toggler collapsed ml-auto" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar top-bar"></span> <span class="icon-bar middle-bar"></span> <span class="icon-bar bottom-bar"></span> </button> <div class="collapse navbar-collapse text-right" id="navbarNav"> <ul class="navbar-nav ml-auto flex-nowrap"> <li class="nav-item "> <a class="nav-link" href="/">about </a> </li> <li class="nav-item "> <a class="nav-link" href="/publications/">publications </a> </li> <li class="nav-item active"> <a class="nav-link" href="/projects/">projects <span class="sr-only">(current)</span> </a> </li> <li class="nav-item "> <a class="nav-link" href="/cv/">cv </a> </li> <li class="nav-item "> <a class="nav-link" href="/teaching/">teaching </a> </li> <li class="nav-item "> <a class="nav-link" href="/people/">people </a> </li> <li class="nav-item "> <a class="nav-link" href="/service/">service </a> </li> <li class="nav-item"> <button id="search-toggle" title="Search" onclick="openSearchModal()"> <span class="nav-link">ctrl k <i class="ti ti-search"></i></span> </button> </li> <li class="toggle-container"> <button id="light-toggle" title="Change theme"> <i class="ti ti-sun-moon" id="light-toggle-system"></i> <i class="ti ti-moon-filled" id="light-toggle-dark"></i> <i class="ti ti-sun-filled" id="light-toggle-light"></i> </button> </li> </ul> </div> </div> </nav> <progress id="progress" value="0"> <div class="progress-container"> <span class="progress-bar"></span> </div> </progress> </header> <div class="container mt-5" role="main"> <div class="post"> <header class="post-header"> <h1 class="post-title">LLendify</h1> <p class="post-description">AI-powered loan eligibility system using LLMs to analyze bank statements and provide instant recommendations</p> </header> <article> <h2 id="overview">Overview</h2> <p><strong>LLendify</strong> leverages <strong>large language models (LLMs)</strong> to analyze bank statement PDFs and provide <strong>instant loan eligibility insights</strong>. Upload your bank statement and receive AI-powered loan recommendations, analysis of income patterns, spending habits, and creditworthiness in seconds.</p> <p>💻 <strong>GitHub</strong>: <a href="https://github.com/junayed-hasan/llendify" rel="external nofollow noopener" target="_blank">llendify</a><br> 🚀 <strong>Demo</strong>: AI-Powered Financial Analysis<br> 🏆 <strong>Innovation</strong>: LLM-based document understanding for fintech</p> <h2 id="key-features">Key Features</h2> <p>✅ <strong>PDF Bank Statement Analysis</strong>: Upload and parse complex bank PDFs<br> ✅ <strong>LLM-Powered Insights</strong>: GPT/Claude analyze financial patterns<br> ✅ <strong>Loan Recommendation Engine</strong>: Instant eligibility assessment<br> ✅ <strong>Income Pattern Detection</strong>: Identify regular income sources<br> ✅ <strong>Spending Habit Analysis</strong>: Categorize expenses automatically<br> ✅ <strong>Creditworthiness Scoring</strong>: ML-based risk assessment<br> ✅ <strong>Privacy-First</strong>: Local processing, no data storage</p> <h2 id="how-it-works">How It Works</h2> <h3 id="1-document-upload">1. Document Upload</h3> <ul> <li>User uploads bank statement PDF (last 3-6 months)</li> <li>Supported formats: PDF from major banks (Chase, BoA, Wells Fargo, etc.)</li> </ul> <h3 id="2-pdf-parsing--extraction">2. PDF Parsing &amp; Extraction</h3> <ul> <li>Extract text using PyPDF2 / pdfplumber</li> <li>Identify transactions, dates, amounts, descriptions</li> <li>Handle multi-column layouts and varied formats</li> </ul> <h3 id="3-llm-analysis">3. LLM Analysis</h3> <ul> <li> <strong>Prompt Engineering</strong>: Structured prompts for financial analysis</li> <li> <strong>GPT-4 / Claude</strong>: Analyze income stability, expense patterns</li> <li> <strong>Chain-of-Thought</strong>: Break down financial health assessment</li> </ul> <h3 id="4-loan-recommendation">4. Loan Recommendation</h3> <ul> <li>Calculate <strong>debt-to-income ratio</strong> </li> <li>Assess <strong>income stability</strong> (regular vs. irregular)</li> <li>Identify <strong>red flags</strong> (overdrafts, bounced checks, late fees)</li> <li>Generate <strong>loan eligibility score</strong> (0-100)</li> </ul> <h3 id="5-report-generation">5. Report Generation</h3> <ul> <li>Comprehensive financial assessment</li> <li>Loan amount recommendations</li> <li>Interest rate estimates</li> <li>Approval probability</li> </ul> <h2 id="technical-architecture">Technical Architecture</h2> <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Bank Statement PDF
+         ↓
+  PDF Text Extraction
+         ↓
+Transaction Parsing &amp; Cleaning
+         ↓
+  LLM Analysis (GPT-4)
+    ├── Income Detection
+    ├── Expense Categorization
+    ├── Pattern Recognition
+    └── Risk Assessment
+         ↓
+ML Scoring Model (XGBoost)
+         ↓
+Loan Recommendation Report
+</code></pre></div></div> <h2 id="sample-analysis-output">Sample Analysis Output</h2> <h3 id="income-pattern-analysis">Income Pattern Analysis</h3> <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>✅ Regular Income Detected
+   - Monthly Salary: $5,200 (deposited on 1st of each month)
+   - Freelance Income: $800-1,200/month (variable)
+   - Total Average Monthly Income: $6,100
+
+💡 Income Stability Score: 87/100 (Good)
+</code></pre></div></div> <h3 id="spending-habits">Spending Habits</h3> <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>📊 Expense Categories:
+   - Housing: $1,500 (24.6%)
+   - Transportation: $450 (7.4%)
+   - Food &amp; Dining: $650 (10.7%)
+   - Utilities: $200 (3.3%)
+   - Entertainment: $300 (4.9%)
+   - Savings: $1,000 (16.4%)
+   - Other: $2,000 (32.8%)
+
+💰 Average Monthly Expenses: $6,100
+💳 Debt-to-Income Ratio: 25% (Healthy)
+</code></pre></div></div> <h3 id="loan-recommendation">Loan Recommendation</h3> <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>🏦 Loan Eligibility: APPROVED ✅
+
+Recommended Loan Amount: $25,000 - $40,000
+Estimated Interest Rate: 6.5% - 8.5% APR
+Approval Probability: 85%
+
+Key Strengths:
+✅ Stable monthly income
+✅ Healthy debt-to-income ratio
+✅ Consistent savings pattern
+✅ No overdrafts or late fees
+
+Areas for Improvement:
+⚠️  Consider reducing discretionary spending by 10%
+⚠️  Build 3-month emergency fund
+</code></pre></div></div> <h2 id="technical-implementation">Technical Implementation</h2> <h3 id="pdf-parsing">PDF Parsing</h3> <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kn">import</span> <span class="n">pdfplumber</span>
+<span class="kn">import</span> <span class="n">re</span>
+
+<span class="k">def</span> <span class="nf">extract_transactions</span><span class="p">(</span><span class="n">pdf_path</span><span class="p">):</span>
+    <span class="n">transactions</span> <span class="o">=</span> <span class="p">[]</span>
+    <span class="k">with</span> <span class="n">pdfplumber</span><span class="p">.</span><span class="nf">open</span><span class="p">(</span><span class="n">pdf_path</span><span class="p">)</span> <span class="k">as</span> <span class="n">pdf</span><span class="p">:</span>
+        <span class="k">for</span> <span class="n">page</span> <span class="ow">in</span> <span class="n">pdf</span><span class="p">.</span><span class="n">pages</span><span class="p">:</span>
+            <span class="n">text</span> <span class="o">=</span> <span class="n">page</span><span class="p">.</span><span class="nf">extract_text</span><span class="p">()</span>
+            <span class="c1"># Regex patterns for date, amount, description
+</span>            <span class="n">pattern</span> <span class="o">=</span> <span class="sa">r</span><span class="sh">'</span><span class="s">(\d{2}/\d{2}/\d{4})\s+(.+?)\s+(-?\$[\d,]+\.\d{2})</span><span class="sh">'</span>
+            <span class="n">matches</span> <span class="o">=</span> <span class="n">re</span><span class="p">.</span><span class="nf">findall</span><span class="p">(</span><span class="n">pattern</span><span class="p">,</span> <span class="n">text</span><span class="p">)</span>
+            <span class="n">transactions</span><span class="p">.</span><span class="nf">extend</span><span class="p">(</span><span class="n">matches</span><span class="p">)</span>
+    <span class="k">return</span> <span class="n">transactions</span>
+</code></pre></div></div> <h3 id="llm-analysis">LLM Analysis</h3> <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kn">from</span> <span class="n">openai</span> <span class="kn">import</span> <span class="n">OpenAI</span>
+
+<span class="k">def</span> <span class="nf">analyze_financial_health</span><span class="p">(</span><span class="n">transactions</span><span class="p">):</span>
+    <span class="n">prompt</span> <span class="o">=</span> <span class="sa">f</span><span class="sh">"""</span><span class="s">
+    You are a financial analyst. Analyze the following bank transactions and provide:
+    1. Monthly income estimate
+    2. Expense categorization
+    3. Debt-to-income ratio
+    4. Loan eligibility assessment
+    
+    Transactions:
+    </span><span class="si">{</span><span class="n">transactions</span><span class="si">}</span><span class="s">
+    
+    Provide structured JSON output.
+    </span><span class="sh">"""</span>
+    
+    <span class="n">client</span> <span class="o">=</span> <span class="nc">OpenAI</span><span class="p">(</span><span class="n">api_key</span><span class="o">=</span><span class="n">os</span><span class="p">.</span><span class="nf">getenv</span><span class="p">(</span><span class="sh">"</span><span class="s">OPENAI_API_KEY</span><span class="sh">"</span><span class="p">))</span>
+    <span class="n">response</span> <span class="o">=</span> <span class="n">client</span><span class="p">.</span><span class="n">chat</span><span class="p">.</span><span class="n">completions</span><span class="p">.</span><span class="nf">create</span><span class="p">(</span>
+        <span class="n">model</span><span class="o">=</span><span class="sh">"</span><span class="s">gpt-4</span><span class="sh">"</span><span class="p">,</span>
+        <span class="n">messages</span><span class="o">=</span><span class="p">[{</span><span class="sh">"</span><span class="s">role</span><span class="sh">"</span><span class="p">:</span> <span class="sh">"</span><span class="s">user</span><span class="sh">"</span><span class="p">,</span> <span class="sh">"</span><span class="s">content</span><span class="sh">"</span><span class="p">:</span> <span class="n">prompt</span><span class="p">}],</span>
+        <span class="n">temperature</span><span class="o">=</span><span class="mf">0.2</span>
+    <span class="p">)</span>
+    
+    <span class="k">return</span> <span class="n">json</span><span class="p">.</span><span class="nf">loads</span><span class="p">(</span><span class="n">response</span><span class="p">.</span><span class="n">choices</span><span class="p">[</span><span class="mi">0</span><span class="p">].</span><span class="n">message</span><span class="p">.</span><span class="n">content</span><span class="p">)</span>
+</code></pre></div></div> <h3 id="loan-scoring-model">Loan Scoring Model</h3> <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kn">import</span> <span class="n">xgboost</span> <span class="k">as</span> <span class="n">xgb</span>
+
+<span class="k">def</span> <span class="nf">calculate_loan_score</span><span class="p">(</span><span class="n">income</span><span class="p">,</span> <span class="n">expenses</span><span class="p">,</span> <span class="n">savings</span><span class="p">,</span> <span class="n">debt_ratio</span><span class="p">,</span> <span class="n">overdrafts</span><span class="p">):</span>
+    <span class="n">features</span> <span class="o">=</span> <span class="n">np</span><span class="p">.</span><span class="nf">array</span><span class="p">([[</span><span class="n">income</span><span class="p">,</span> <span class="n">expenses</span><span class="p">,</span> <span class="n">savings</span><span class="p">,</span> <span class="n">debt_ratio</span><span class="p">,</span> <span class="n">overdrafts</span><span class="p">]])</span>
+    
+    <span class="c1"># Pre-trained XGBoost model
+</span>    <span class="n">model</span> <span class="o">=</span> <span class="n">xgb</span><span class="p">.</span><span class="nc">Booster</span><span class="p">()</span>
+    <span class="n">model</span><span class="p">.</span><span class="nf">load_model</span><span class="p">(</span><span class="sh">'</span><span class="s">loan_score_model.json</span><span class="sh">'</span><span class="p">)</span>
+    
+    <span class="n">score</span> <span class="o">=</span> <span class="n">model</span><span class="p">.</span><span class="nf">predict</span><span class="p">(</span><span class="n">xgb</span><span class="p">.</span><span class="nc">DMatrix</span><span class="p">(</span><span class="n">features</span><span class="p">))[</span><span class="mi">0</span><span class="p">]</span>
+    <span class="k">return</span> <span class="nf">min</span><span class="p">(</span><span class="nf">max</span><span class="p">(</span><span class="n">score</span> <span class="o">*</span> <span class="mi">100</span><span class="p">,</span> <span class="mi">0</span><span class="p">),</span> <span class="mi">100</span><span class="p">)</span>  <span class="c1"># Scale to 0-100
+</span></code></pre></div></div> <h2 id="tech-stack">Tech Stack</h2> <p><strong>Backend</strong>: Python, Flask / FastAPI<br> <strong>LLM Integration</strong>: OpenAI GPT-4, Anthropic Claude<br> <strong>PDF Processing</strong>: pdfplumber, PyPDF2, Camelot<br> <strong>ML Models</strong>: XGBoost, Scikit-learn<br> <strong>Frontend</strong>: React, Tailwind CSS<br> <strong>Deployment</strong>: Docker, AWS Lambda (serverless)</p> <h2 id="use-cases">Use Cases</h2> <h3 id="individual-users">Individual Users</h3> <ul> <li>Check loan eligibility before applying</li> <li>Understand financial health</li> <li>Identify spending optimization opportunities</li> </ul> <h3 id="lenders--banks">Lenders &amp; Banks</h3> <ul> <li>Automated pre-approval screening</li> <li>Reduce manual document review time</li> <li>Improve loan approval accuracy</li> </ul> <h3 id="financial-advisors">Financial Advisors</h3> <ul> <li>Client financial health assessment</li> <li>Personalized recommendations</li> <li>Portfolio analysis</li> </ul> <h2 id="privacy--security">Privacy &amp; Security</h2> <p>🔒 <strong>Data Privacy</strong>:</p> <ul> <li>No bank statements stored on servers</li> <li>Encrypted during processing</li> <li>Automatic deletion after analysis</li> </ul> <p>🛡️ <strong>Security Measures</strong>:</p> <ul> <li>HTTPS-only communication</li> <li>SOC 2 compliance ready</li> <li>GDPR-compliant data handling</li> </ul> <h2 id="future-enhancements">Future Enhancements</h2> <ul> <li>Multi-language support (Spanish, French, etc.)</li> <li>Integration with Plaid API for direct bank connection</li> <li>Credit score prediction using alternative data</li> <li>Mobile app (iOS/Android)</li> <li>Personalized financial tips and budgeting advice</li> </ul> <hr> <p><strong>Status</strong>: Active Development<br> <strong>Tech</strong>: Python, LLMs, ML, React<br> <strong>License</strong>: MIT</p> </article> </div> </div> <footer class="fixed-bottom" role="contentinfo"> <div class="container mt-0"> © Copyright 2025 Mohammad Junayed Hasan. Powered by <a href="https://jekyllrb.com/" target="_blank" rel="external nofollow noopener">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio" rel="external nofollow noopener" target="_blank">al-folio</a> theme. Hosted by <a href="https://pages.github.com/" target="_blank" rel="external nofollow noopener">GitHub Pages</a>. </div> </footer> <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script> <script src="/assets/js/bootstrap.bundle.min.js"></script> <script src="https://cdn.jsdelivr.net/npm/mdbootstrap@4.20.0/js/mdb.min.js" integrity="sha256-NdbiivsvWt7VYCt6hYNT3h/th9vSTL4EDWeGs5SN3DA=" crossorigin="anonymous"></script> <script defer src="https://cdn.jsdelivr.net/npm/masonry-layout@4.2.2/dist/masonry.pkgd.min.js" integrity="sha256-Nn1q/fx0H7SNLZMQ5Hw5JLaTRZp0yILA/FRexe19VdI=" crossorigin="anonymous"></script> <script defer src="https://cdn.jsdelivr.net/npm/imagesloaded@5.0.0/imagesloaded.pkgd.min.js" integrity="sha256-htrLFfZJ6v5udOG+3kNLINIKh2gvoKqwEhHYfTTMICc=" crossorigin="anonymous"></script> <script defer src="/assets/js/masonry.js?a0db7e5d5c70cc3252b3138b0c91dcaf" type="text/javascript"></script> <script defer src="https://cdn.jsdelivr.net/npm/medium-zoom@1.1.0/dist/medium-zoom.min.js" integrity="sha256-ZgMyDAIYDYGxbcpJcfUnYwNevG/xi9OHKaR/8GK+jWc=" crossorigin="anonymous"></script> <script defer src="/assets/js/zoom.js?85ddb88934d28b74e78031fd54cf8308"></script> <script src="/assets/js/no_defer.js?2781658a0a2b13ed609542042a859126"></script> <script defer src="/assets/js/common.js?e0514a05c5c95ac1a93a8dfd5249b92e"></script> <script defer src="/assets/js/copy_code.js?c8a01c11a92744d44b093fc3bda915df" type="text/javascript"></script> <script defer src="/assets/js/jupyter_new_tab.js?d9f17b6adc2311cbabd747f4538bb15f"></script> <script async src="https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js"></script> <script async src="https://badge.dimensions.ai/badge.js"></script> <script defer type="text/javascript" id="MathJax-script" src="https://cdn.jsdelivr.net/npm/mathjax@3.2.2/es5/tex-mml-chtml.js" integrity="sha256-MASABpB4tYktI2Oitl4t+78w/lyA+D7b/s9GEP0JOGI=" crossorigin="anonymous"></script> <script src="/assets/js/mathjax-setup.js?a5bb4e6a542c546dd929b24b8b236dfd"></script> <script defer src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6" crossorigin="anonymous"></script> <script defer src="/assets/js/progress-bar.js?2f30e0e6801ea8f5036fa66e1ab0a71a" type="text/javascript"></script> <script src="/assets/js/vanilla-back-to-top.min.js?f40d453793ff4f64e238e420181a1d17"></script> <script>
+    addBackToTop();
+  </script> <script type="module" src="/assets/js/search/ninja-keys.min.js?a3446f084dcaecc5f75aa1757d087dcf"></script> <ninja-keys hidebreadcrumbs noautoloadmdicons placeholder="Type to start searching"></ninja-keys> <script src="/assets/js/search-setup.js?6c304f7b1992d4b60f7a07956e52f04a"></script> <script src="/assets/js/search-data.js"></script> <script src="/assets/js/shortcut-key.js?6f508d74becd347268a7f822bca7309d"></script> </body> </html>
