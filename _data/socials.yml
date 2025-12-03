@@ -1,14 +1,9 @@
-# this file contains the social media links and usernames of the author
-# the commented lines are the default social media links supported by the template
-# the socials will be displayed in the order they are defined here
+# Social media links and usernames
+# Displayed in the order defined here
 
-email: junayedhasan100@gmail.com # your email address
-github_username: junayed-hasan # your GitHub user name
-linkedin_username: mjhasan21 # your LinkedIn user name
-scholar_userid: QwIfzvgAAAAJ # your Google Scholar ID
-orcid_id: 0009-0008-3451-0267 # your ORCID ID
-# rss_icon: true # comment this line to hide the RSS icon
-# semanticscholar_id: # your Semantic Scholar ID
-# research_gate_profile: # your profile on ResearchGate
-# x_username: # your X handle
-# kaggle_id: # your kaggle id
+email: junayedhasan100@gmail.com
+github_username: junayed-hasan
+linkedin_username: mjhasan21
+scholar_userid: QwIfzvgAAAAJ
+orcid_id: 0009-0008-3451-0267
+research_gate_profile: Mohammad-Junayed-Hasan

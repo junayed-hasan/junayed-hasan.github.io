@@ -72,7 +72,7 @@
         - "Directed research on <b>QSiamNet</b>, the first hybrid quantum-classical siamese network for enhanced similarity-based learning, resulting in manuscript now under review at <i>Neurocomputing</i>"
     
     - title: AI Research Engineer
-      institution: Apurba Technologies Ltd., Dhaka, Bangladesh
+      institution: Apurba Technologies Ltd., Dhaka, Bangladesh (under supervision of Dr. Fuad Rahman, CEO & Professor at University of Arizona)
       year: Nov 2023 - Jul 2024
       description:
         - "Designed <b>DeepMarkerNet</b>, a novel multi-task transformer framework for genuine smile detection via auxiliary supervision from handcrafted features to automatic transformer features"
@@ -251,4 +251,5 @@
   type: list
   contents:
     - "<table style='width:100%'><tr><td style='width:50%; vertical-align:top'><b>Dr. Philipp Koehn</b><br>Professor of Computer Science<br>Johns Hopkins University<br>Email: <a href='mailto:phi@jhu.edu'>phi@jhu.edu</a></td><td style='width:50%; vertical-align:top'><b>Dr. Mahdy Rahman Chowdhury</b><br>Professor of ECE<br>North South University<br>Email: <a href='mailto:mahdy.chowdhury@northsouth.edu'>mahdy.chowdhury@northsouth.edu</a></td></tr></table>"
-    - "<table style='width:100%'><tr><td style='width:50%; vertical-align:top'><b>Dr. Sifat Momen</b><br>Professor of ECE<br>North South University<br>Email: <a href='mailto:sifat.momen@northsouth.edu'>sifat.momen@northsouth.edu</a></td><td style='width:50%; vertical-align:top'><b>Dr. Nabeel Mohammed</b><br>Associate Professor of ECE<br>North South University<br>Email: <a href='mailto:nabeel.mohammed@northsouth.edu'>nabeel.mohammed@northsouth.edu</a></td></tr></table>"
+    - "<table style='width:100%'><tr><td style='width:50%; vertical-align:top'><b>Dr. Nabeel Mohammed</b><br>Associate Professor of ECE<br>North South University<br>Email: <a href='mailto:nabeel.mohammed@northsouth.edu'>nabeel.mohammed@northsouth.edu</a></td><td style='width:50%; vertical-align:top'><b>Dr. Fuad Rahman</b><br>Professor, Biomedical Engineering<br>University of Arizona | CEO, Apurba Technologies<br></td></tr></table>"
+    - "<table style='width:100%'><tr><td style='width:50%; vertical-align:top'><b>Dr. Sifat Momen</b><br>Professor of ECE<br>North South University<br>Email: <a href='mailto:sifat.momen@northsouth.edu'>sifat.momen@northsouth.edu</a></td><td style='width:50%; vertical-align:top'><b>Dr. Suvodeep Mazumdar</b><br>Senior Lecturer<br>University of Sheffield, UK<br></td></tr></table>"

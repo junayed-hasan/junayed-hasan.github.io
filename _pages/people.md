@@ -22,6 +22,10 @@ Research is fundamentally collaborative. I've been fortunate to work with except
 <div class="row">
 <div class="col-md-6 person-card" markdown="1">
 
+<div class="supervisor-photo">
+<img src="/assets/img/supervisors/philipp_koehn.jpg" alt="Prof. Philipp Koehn" onerror="this.style.display='none'">
+</div>
+
 ### Prof. Philipp Koehn
 **Professor of Computer Science**  
 Johns Hopkins University
@@ -37,6 +41,10 @@ Johns Hopkins University
 </div>
 
 <div class="col-md-6 person-card" markdown="1">
+
+<div class="supervisor-photo">
+<img src="/assets/img/supervisors/anjalie_field.jpg" alt="Prof. Anjalie Field" onerror="this.style.display='none'">
+</div>
 
 ### Prof. Anjalie Field
 **Assistant Professor of Computer Science**  
@@ -56,6 +64,10 @@ Johns Hopkins University
 <div class="row mt-3">
 <div class="col-md-6 person-card" markdown="1">
 
+<div class="supervisor-photo">
+<img src="/assets/img/supervisors/mahdy_chowdhury.jpg" alt="Prof. Mahdy Rahman Chowdhury" onerror="this.style.display='none'">
+</div>
+
 ### Prof. Mahdy Rahman Chowdhury
 **Professor of ECE**  
 North South University
@@ -72,6 +84,89 @@ North South University
 </div>
 
 <div class="col-md-6 person-card" markdown="1">
+
+<div class="supervisor-photo">
+<img src="/assets/img/supervisors/nabeel_mohammed.jpg" alt="Prof. Nabeel Mohammed" onerror="this.style.display='none'">
+</div>
+
+### Prof. Nabeel Mohammed
+**Associate Professor of ECE**  
+North South University
+
+<small><i class="fas fa-envelope"></i> [nabeel.mohammed@northsouth.edu](mailto:nabeel.mohammed@northsouth.edu)</small>
+
+**Role**: Research Supervisor (RA)  
+**Research**: Deep Learning, NLP, Computer Vision
+
+*Supervised research on clinical LLM optimization, smile recognition, and life satisfaction prediction. 5 co-authored publications (IJMEDI, PRL, Heliyon, ICDM).*
+
+</div>
+</div>
+
+<div class="row mt-3">
+<div class="col-md-6 person-card" markdown="1">
+
+<div class="supervisor-photo">
+<img src="/assets/img/supervisors/fuad_rahman.jpg" alt="Dr. Fuad Rahman" onerror="this.style.display='none'">
+</div>
+
+### Dr. Fuad Rahman
+**Professor, Department of Biomedical Engineering**  
+University of Arizona  
+**CEO**, Apurba Technologies Ltd.
+
+<small><i class="fas fa-link"></i> [University Profile](https://bme.engineering.arizona.edu/)</small>
+
+**Role**: Research Supervisor  
+**Research**: Clinical NLP, Healthcare AI, Medical Imaging
+
+*Supervised research on OptimCLM for clinical language model compression. Co-authored publication in IJMEDI 2025 and Pattern Recognition Letters 2024.*
+
+</div>
+
+<div class="col-md-6 person-card" markdown="1">
+
+<div class="supervisor-photo">
+<img src="/assets/img/supervisors/sifat_momen.jpg" alt="Prof. Sifat Momen" onerror="this.style.display='none'">
+</div>
+
+### Prof. Sifat Momen
+**Professor of ECE**  
+North South University
+
+<small><i class="fas fa-envelope"></i> [sifat.momen@northsouth.edu](mailto:sifat.momen@northsouth.edu)</small>
+
+**Role**: Course & Research Supervisor  
+**Research**: Machine Learning, Healthcare AI, NLP
+
+*Supervised research on occupational stress detection, NCD detection, and plant disease AI. 3 co-authored publications (AEJ, PLOS ONE, IEEE Access).*
+
+</div>
+</div>
+
+<div class="row mt-3">
+<div class="col-md-6 person-card" markdown="1">
+
+<div class="supervisor-photo">
+<img src="/assets/img/supervisors/suvodeep_mazumdar.jpg" alt="Dr. Suvodeep Mazumdar" onerror="this.style.display='none'">
+</div>
+
+### Dr. Suvodeep Mazumdar
+**Senior Lecturer**  
+University of Sheffield, UK
+
+**Role**: Research Collaborator  
+**Research**: Data Visualization, Machine Learning
+
+*Collaboration on deployable deep learning for plant disease detection. Co-authored publication in IEEE Access 2025.*
+
+</div>
+
+<div class="col-md-6 person-card" markdown="1">
+
+<div class="supervisor-photo">
+<img src="/assets/img/supervisors/thomas_tavolara.jpg" alt="Dr. Thomas E. Tavolara" onerror="this.style.display='none'">
+</div>
 
 ### Dr. Thomas E. Tavolara
 **Research Scientist**  
@@ -98,34 +193,6 @@ Mayo Clinic
 <div class="row">
 <div class="col-md-4 person-card-compact" markdown="1">
 
-### Prof. Sifat Momen
-**Professor of ECE**  
-North South University
-
-<small><i class="fas fa-envelope"></i> [sifat.momen@northsouth.edu](mailto:sifat.momen@northsouth.edu)</small>
-
-**Collaboration**: Occupational stress detection, NCD detection, plant disease AI
-
-**Publications**: 3 co-authored papers (AEJ, PLOS ONE, IEEE Access)
-
-</div>
-
-<div class="col-md-4 person-card-compact" markdown="1">
-
-### Prof. Nabeel Mohammed
-**Associate Professor of ECE**  
-North South University
-
-<small><i class="fas fa-envelope"></i> [nabeel.mohammed@northsouth.edu](mailto:nabeel.mohammed@northsouth.edu)</small>
-
-**Collaboration**: Clinical LLM optimization, smile recognition, life satisfaction prediction
-
-**Publications**: 5 co-authored papers (IJMEDI, PRL, Heliyon, ICDM)
-
-</div>
-
-<div class="col-md-4 person-card-compact" markdown="1">
-
 ### Prof. Shafin Rahman
 **Professor**  
 North South University
@@ -137,46 +204,8 @@ North South University
 **Publications**: 2 co-authored papers (PRL, ICDM)
 
 </div>
-</div>
-
-<div class="row mt-3">
-<div class="col-md-4 person-card-compact" markdown="1">
-
-### Prof. Suvodeep Mazumdar
-**Assistant Professor**  
-North South University
-
-**Collaboration**: Plant disease detection using ensemble learning and knowledge distillation
-
-**Publications**: IEEE Access 2025
-
-</div>
 
 <div class="col-md-4 person-card-compact" markdown="1">
-
-### Prof. M. A. Khan
-**Professor**  
-North South University
-
-**Collaboration**: Early-stage research projects and undergraduate studies
-
-</div>
-
-<div class="col-md-4 person-card-compact" markdown="1">
-
-### Prof. Fuad Rahman
-**Associate Professor**  
-North South University
-
-**Collaboration**: OptimCLM - Clinical language model compression
-
-**Publications**: IJMEDI 2025
-
-</div>
-</div>
-
-<div class="row mt-3">
-<div class="col-md-6 person-card-compact" markdown="1">
 
 ### Ms. Silvia Ahmed
 **Lecturer**  
@@ -279,7 +308,7 @@ North South University
 <div class="mentee-item" markdown="1">
 **Dr. MD Nahid Hassan Nishan**  
 <small>Master's Student, NSU</small>  
-*QuantumMedKD* (AEJ under review)
+*QuantumMedKD* (AEJ 2025)
 </div>
 
 <div class="mentee-item" markdown="1">
@@ -443,6 +472,22 @@ I'm always open to new research collaborations, especially in:
 
 .people-section {
   margin: 3rem 0;
+}
+
+.supervisor-photo {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin-bottom: 1rem;
+  border: 3px solid var(--global-theme-color);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+
+.supervisor-photo img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 .person-card {

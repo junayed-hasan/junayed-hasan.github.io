@@ -1,8 +1,9 @@
 ---
 layout: post
-date: 2024-12-15 13:00:00-0400
+date: 2025-09-22 12:00:00-0500
 inline: true
 related_posts: false
 ---
 
-Published in **PLoS ONE**: "CQ-CNN: A lightweight hybrid classical–quantum convolutional neural network for Alzheimer's disease detection using 3D structural brain MRI." 🧠
+**CQ-CNN** paper accepted in **PLOS ONE**! 🧠 A lightweight hybrid classical-quantum CNN for Alzheimer's disease detection using 3D structural brain MRI.
+
