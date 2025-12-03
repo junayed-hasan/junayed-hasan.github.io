@@ -93,7 +93,8 @@ North South University
 **Research Scientist**  
 Mayo Clinic
 
-<small><i class="fas fa-envelope"></i> [tavolara.thomas@mayo.edu](mailto:tavolara.thomas@mayo.edu)</small>
+<small><i class="fas fa-envelope"></i> [tavolara.thomas@mayo.edu](mailto:tavolara.thomas@mayo.edu)</small>  
+<small><i class="fas fa-link"></i> [Google Scholar](https://scholar.google.com/citations?user=DTnOXg4AAAAJ&hl=en)</small>
 
 **Role**: Research Internship Supervisor  
 **Research**: Clinical ML, Healthcare AI
@@ -134,7 +135,8 @@ North South University
 **Professor of ECE**  
 North South University
 
-<small><i class="fas fa-envelope"></i> [sifat.momen@northsouth.edu](mailto:sifat.momen@northsouth.edu)</small>
+<small><i class="fas fa-envelope"></i> [sifat.momen@northsouth.edu](mailto:sifat.momen@northsouth.edu)</small>  
+<small><i class="fas fa-link"></i> [Google Scholar](https://scholar.google.com/citations?user=sGVZEaAAAAAJ&hl=en)</small>
 
 **Role**: Course & Research Supervisor  
 **Research**: Machine Learning, Healthcare AI, NLP
