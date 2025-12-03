@@ -51,39 +51,26 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/service/";
           },
-        },{id: "books-the-godfather",
-          title: 'The Godfather',
+        },{id: "news-paper-on-deployable-deep-learning-for-plant-disease-detection-accepted-at-ieee-access-achieving-99-compression-while-maintaining-97-46-accuracy-for-edge-deployment",
+          title: 'Paper on Deployable Deep Learning for Plant Disease Detection accepted at IEEE Access!...',
           description: "",
-          section: "Books",handler: () => {
-              window.location.href = "/books/the_godfather/";
-            },},{id: "news-a-long-announcement-with-details",
-          title: 'A long announcement with details',
+          section: "News",},{id: "news-cq-cnn-paper-accepted-in-plos-one-a-lightweight-hybrid-classical-quantum-cnn-for-alzheimer-s-disease-detection-using-3d-structural-brain-mri",
+          title: 'CQ-CNN paper accepted in PLOS ONE! 🧠 A lightweight hybrid classical-quantum CNN for...',
           description: "",
-          section: "News",handler: () => {
-              window.location.href = "/news/announcement_2/";
-            },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
-          title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
+          section: "News",},{id: "news-paper-accepted-at-women-in-machine-learning-workshop-neurips-2025-leveraging-ml-and-llms-for-enhanced-occupational-stress-detection",
+          title: 'Paper accepted at Women in Machine Learning Workshop @ NeurIPS 2025! 🎉 “Leveraging...',
           description: "",
-          section: "News",},{id: "news-published-in-plos-one-cq-cnn-a-lightweight-hybrid-classical-quantum-convolutional-neural-network-for-alzheimer-s-disease-detection-using-3d-structural-brain-mri",
-          title: 'Published in PLoS ONE: “CQ-CNN: A lightweight hybrid classical–quantum convolutional neural network for...',
+          section: "News",},{id: "news-presented-hadasmilenet-at-ieee-icdm-2025-oral-poster-hadamard-fusion-of-handcrafted-and-deep-learning-features-for-enhancing-facial-emotion-recognition-of-genuine-smiles",
+          title: 'Presented HadaSmileNet at IEEE ICDM 2025 (Oral + Poster)! 🎤 “Hadamard fusion of...',
           description: "",
-          section: "News",},{id: "news-published-in-ieee-access-q1-plant-disease-detection-with-ensemble-learning-knowledge-distillation-and-edge-deployment-achieving-99-15-accuracy",
-          title: 'Published in IEEE Access (Q1): “Plant Disease Detection with ensemble learning, knowledge distillation,...',
+          section: "News",},{id: "news-paper-on-ncd-detection-via-prompt-engineering-and-domain-knowledge-integration-published-in-alexandria-engineering-journal",
+          title: 'Paper on NCD detection via prompt engineering and domain knowledge integration published in...',
           description: "",
-          section: "News",},{id: "news-started-as-graduate-teaching-assistant-for-machine-learning-at-johns-hopkins-university-teaching-200-students-with-98-pass-rate",
-          title: 'Started as Graduate Teaching Assistant for Machine Learning at Johns Hopkins University, teaching...',
+          section: "News",},{id: "news-quantummedkd-paper-accepted-to-alexandria-engineering-journal-a-hybrid-quantum-classical-knowledge-distillation-framework-for-medical-image-analysis",
+          title: 'QuantumMedKD paper accepted to Alexandria Engineering Journal! 🎉 A hybrid quantum-classical knowledge distillation...',
           description: "",
-          section: "News",},{id: "news-started-as-data-science-intern-at-mayo-clinic-developing-ml-models-for-blood-utilization-forecasting-and-deployed-blood-horizon-predictor-serving-500-clinicians",
-          title: 'Started as Data Science Intern at Mayo Clinic! Developing ML models for blood...',
-          description: "",
-          section: "News",},{id: "news-published-in-plos-one-early-detection-of-occupational-stress-enhancing-workplace-safety-with-machine-learning-and-llms-with-90-accuracy",
-          title: 'Published in PLoS ONE: “Early detection of occupational stress: Enhancing workplace safety with...',
-          description: "",
-          section: "News",},{id: "news-excited-to-share-that-our-work-on-leveraging-machine-learning-and-large-language-models-for-enhanced-occupational-stress-detection-has-been-accepted-at-neurips-2025-women-in-machine-learning-workshop",
-          title: 'Excited to share that our work on “Leveraging Machine Learning and Large Language...',
-          description: "",
-          section: "News",},{id: "news-paper-accepted-for-oral-poster-presentation-at-ieee-icdm-2025-hadasmilenet-hadamard-fusion-of-handcrafted-and-deep-learning-features-for-enhancing-facial-emotion-recognition-of-genuine-smiles",
-          title: 'Paper accepted for Oral + Poster presentation at IEEE ICDM 2025! 🎉 “HadaSmileNet:...',
+          section: "News",},{id: "news-reached-50-citations-on-google-scholar-grateful-for-the-research-community-s-engagement-with-my-work",
+          title: 'Reached 50+ citations on Google Scholar! 🎉 Grateful for the research community’s engagement...',
           description: "",
           section: "News",},{id: "projects-adult-income-prediction",
           title: 'Adult Income Prediction',
@@ -239,6 +226,13 @@ ninja.data = [{
         section: 'Socials',
         handler: () => {
           window.open("https://orcid.org/0009-0008-3451-0267", "_blank");
+        },
+      },{
+        id: 'social-researchgate',
+        title: 'ResearchGate',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://www.researchgate.net/profile/Mohammad-Junayed-Hasan/", "_blank");
         },
       },{
       id: 'light-theme',
