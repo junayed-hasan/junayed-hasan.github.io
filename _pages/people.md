@@ -86,19 +86,19 @@ North South University
 <div class="col-md-6 person-card" markdown="1">
 
 <div class="supervisor-photo">
-<img src="/assets/img/supervisors/nabeel_mohammed.jpg" alt="Prof. Nabeel Mohammed" onerror="this.style.display='none'">
+<img src="/assets/img/supervisors/thomas_tavolara.jpg" alt="Dr. Thomas E. Tavolara" onerror="this.style.display='none'">
 </div>
 
-### Prof. Nabeel Mohammed
-**Associate Professor of ECE**  
-North South University
+### Dr. Thomas E. Tavolara
+**Research Scientist**  
+Mayo Clinic
 
-<small><i class="fas fa-envelope"></i> [nabeel.mohammed@northsouth.edu](mailto:nabeel.mohammed@northsouth.edu)</small>
+<small><i class="fas fa-envelope"></i> [tavolara.thomas@mayo.edu](mailto:tavolara.thomas@mayo.edu)</small>
 
-**Role**: Research Supervisor (RA)  
-**Research**: Deep Learning, NLP, Computer Vision
+**Role**: Research Internship Supervisor  
+**Research**: Clinical ML, Healthcare AI
 
-*Supervised research on clinical LLM optimization, smile recognition, and life satisfaction prediction. 5 co-authored publications (IJMEDI, PRL, Heliyon, ICDM).*
+*Supervision on blood utilization prediction and HER2 biomarker detection projects at Mayo Clinic.*
 
 </div>
 </div>
@@ -107,20 +107,20 @@ North South University
 <div class="col-md-6 person-card" markdown="1">
 
 <div class="supervisor-photo">
-<img src="/assets/img/supervisors/fuad_rahman.jpg" alt="Dr. Fuad Rahman" onerror="this.style.display='none'">
+<img src="/assets/img/supervisors/nabeel_mohammed.jpg" alt="Prof. Nabeel Mohammed" onerror="this.style.display='none'">
 </div>
 
-### Dr. Fuad Rahman
-**Professor, Department of Biomedical Engineering**  
-University of Arizona  
-**CEO**, Apurba Technologies Ltd.
+### Prof. Nabeel Mohammed
+**Associate Professor of ECE**  
+North South University
 
-<small><i class="fas fa-link"></i> [University Profile](https://bme.engineering.arizona.edu/)</small>
+<small><i class="fas fa-envelope"></i> [nabeel.mohammed@northsouth.edu](mailto:nabeel.mohammed@northsouth.edu)</small>  
+<small><i class="fas fa-link"></i> [Google Scholar](https://scholar.google.com/citations?hl=en&user=w5djOYsAAAAJ)</small>
 
-**Role**: Research Supervisor  
-**Research**: Clinical NLP, Healthcare AI, Medical Imaging
+**Role**: Research Supervisor (RA)  
+**Research**: Deep Learning, NLP, Computer Vision
 
-*Supervised research on OptimCLM for clinical language model compression. Co-authored publication in IJMEDI 2025 and Pattern Recognition Letters 2024.*
+*Supervised research on clinical LLM optimization, smile recognition, and life satisfaction prediction. 5 co-authored publications (IJMEDI, PRL, Heliyon, ICDM).*
 
 </div>
 
@@ -148,15 +148,58 @@ North South University
 <div class="col-md-6 person-card" markdown="1">
 
 <div class="supervisor-photo">
+<img src="/assets/img/supervisors/fuad_rahman.jpg" alt="Dr. Fuad Rahman" onerror="this.style.display='none'">
+</div>
+
+### Dr. Fuad Rahman
+**Founder & CEO**, Apurba Technologies Inc.  
+**ACABI Researcher**, University of Arizona
+
+<small><i class="fas fa-link"></i> [University of Arizona Profile](https://acabi.uahs.arizona.edu/person/fuad-rahman)</small>
+
+**Role**: Research Supervisor  
+**Research**: Clinical NLP, Healthcare AI, NLP, Data Mining
+
+*Ph.D. in Ubiquitous Computer Vision and Pattern Recognition. Supervised research on OptimCLM for clinical language model compression. Co-authored publications in IJMEDI 2025 and Pattern Recognition Letters 2024.*
+
+</div>
+
+<div class="col-md-6 person-card" markdown="1">
+
+<div class="supervisor-photo">
+<img src="/assets/img/supervisors/shafin_rahman.jpg" alt="Prof. Shafin Rahman" onerror="this.style.display='none'">
+</div>
+
+### Prof. Shafin Rahman
+**Professor of ECE**  
+North South University
+
+<small><i class="fas fa-envelope"></i> [shafin.rahman@northsouth.edu](mailto:shafin.rahman@northsouth.edu)</small>  
+<small><i class="fas fa-link"></i> [Google Scholar](https://scholar.google.com/citations?user=Pe8C-SUAAAAJ&hl=en)</small>
+
+**Role**: Research Collaborator  
+**Research**: Computer Vision, Deep Learning
+
+*Collaboration on DeepMarkerNet and HadaSmileNet. 2 co-authored publications (PRL 2024, ICDM 2025).*
+
+</div>
+</div>
+
+<div class="row mt-3">
+<div class="col-md-6 person-card" markdown="1">
+
+<div class="supervisor-photo">
 <img src="/assets/img/supervisors/suvodeep_mazumdar.jpg" alt="Dr. Suvodeep Mazumdar" onerror="this.style.display='none'">
 </div>
 
 ### Dr. Suvodeep Mazumdar
-**Senior Lecturer**  
+**Senior Lecturer in Data Analytics**  
 University of Sheffield, UK
 
+<small><i class="fas fa-link"></i> [University Profile](https://sheffield.ac.uk/ijc/people/suvodeep-mazumdar)</small>
+
 **Role**: Research Collaborator  
-**Research**: Data Visualization, Machine Learning
+**Research**: Data Visualization, Machine Learning, HCI
 
 *Collaboration on deployable deep learning for plant disease detection. Co-authored publication in IEEE Access 2025.*
 
@@ -165,55 +208,19 @@ University of Sheffield, UK
 <div class="col-md-6 person-card" markdown="1">
 
 <div class="supervisor-photo">
-<img src="/assets/img/supervisors/thomas_tavolara.jpg" alt="Dr. Thomas E. Tavolara" onerror="this.style.display='none'">
+<img src="/assets/img/supervisors/silvia_ahmed.jpg" alt="Ms. Silvia Ahmed" onerror="this.style.display='none'">
 </div>
-
-### Dr. Thomas E. Tavolara
-**Research Scientist**  
-Mayo Clinic
-
-<small><i class="fas fa-envelope"></i> [tavolara.thomas@mayo.edu](mailto:tavolara.thomas@mayo.edu)</small>
-
-**Role**: Research Internship Supervisor  
-**Research**: Clinical ML, Healthcare AI
-
-*Supervision on blood utilization prediction and HER2 biomarker detection projects at Mayo Clinic.*
-
-</div>
-</div>
-
-</div>
-
----
-
-<div class="people-section" markdown="1">
-
-## <i class="fas fa-users"></i> Faculty Collaborators
-
-<div class="row">
-<div class="col-md-4 person-card-compact" markdown="1">
-
-### Prof. Shafin Rahman
-**Professor**  
-North South University
-
-<small><i class="fas fa-envelope"></i> [shafin.rahman@northsouth.edu](mailto:shafin.rahman@northsouth.edu)</small>
-
-**Collaboration**: DeepMarkerNet, HadaSmileNet
-
-**Publications**: 2 co-authored papers (PRL, ICDM)
-
-</div>
-
-<div class="col-md-4 person-card-compact" markdown="1">
 
 ### Ms. Silvia Ahmed
 **Lecturer**  
 North South University
 
-**Collaboration**: Occupational stress detection using ML and LLMs
+<small><i class="fas fa-link"></i> [Google Scholar](https://scholar.google.com/citations?user=T5jK--YAAAAJ&hl=en)</small>
 
-**Publications**: PLOS ONE 2025
+**Role**: Research Collaborator  
+**Research**: Machine Learning, NLP
+
+*Collaboration on occupational stress detection using ML and LLMs. Co-authored publication in PLOS ONE 2025.*
 
 </div>
 </div>
@@ -520,28 +527,6 @@ I'm always open to new research collaborations, especially in:
   display: block;
   margin: 0.25rem 0;
   color: var(--global-text-color-light);
-}
-
-.person-card-compact {
-  background: var(--global-card-bg-color);
-  border: 1px solid var(--global-divider-color);
-  border-radius: 0.5rem;
-  padding: 1.25rem;
-  margin-bottom: 1rem;
-  transition: all 0.2s;
-  min-height: 200px;
-}
-
-.person-card-compact:hover {
-  border-color: var(--global-theme-color);
-  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
-}
-
-.person-card-compact h3 {
-  color: var(--global-theme-color);
-  margin-top: 0;
-  margin-bottom: 0.5rem;
-  font-size: 1.15rem;
 }
 
 .collaborator-card {
