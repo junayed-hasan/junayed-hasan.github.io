@@ -653,12 +653,11 @@ I'm always open to new research collaborations, especially in:
 }
 
 .stats-highlight {
-  background: linear-gradient(135deg, #9333ea 0%, #a855f7 50%, #c084fc 100%);
+  background: var(--global-theme-color);
   color: white;
   padding: 2rem;
   border-radius: 0.5rem;
   margin: 2rem 0;
-  box-shadow: 0 4px 15px rgba(147, 51, 234, 0.25);
 }
 
 .stat-number {
