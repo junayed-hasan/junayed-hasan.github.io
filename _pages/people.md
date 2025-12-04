@@ -653,12 +653,12 @@ I'm always open to new research collaborations, especially in:
 }
 
 .stats-highlight {
-  background: linear-gradient(135deg, #2563eb 0%, #3b82f6 50%, #60a5fa 100%);
+  background: linear-gradient(135deg, #9333ea 0%, #a855f7 50%, #c084fc 100%);
   color: white;
   padding: 2rem;
   border-radius: 0.5rem;
   margin: 2rem 0;
-  box-shadow: 0 4px 15px rgba(37, 99, 235, 0.3);
+  box-shadow: 0 4px 15px rgba(147, 51, 234, 0.25);
 }
 
 .stat-number {
@@ -666,7 +666,6 @@ I'm always open to new research collaborations, especially in:
   font-weight: 700;
   display: block;
   color: white;
-  text-shadow: 0 2px 4px rgba(0,0,0,0.1);
 }
 
 .collaboration-cta {

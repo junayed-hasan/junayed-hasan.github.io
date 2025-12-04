@@ -335,12 +335,12 @@ I believe effective teaching combines **rigorous theory** with **practical appli
 }
 
 .stats-section {
-  background: linear-gradient(135deg, #2563eb 0%, #3b82f6 50%, #60a5fa 100%);
+  background: linear-gradient(135deg, #9333ea 0%, #a855f7 50%, #c084fc 100%);
   color: white;
   padding: 3rem 2rem;
   border-radius: 0.5rem;
   margin: 2rem 0;
-  box-shadow: 0 4px 15px rgba(37, 99, 235, 0.3);
+  box-shadow: 0 4px 15px rgba(147, 51, 234, 0.25);
 }
 
 .stats-card {
@@ -353,14 +353,13 @@ I believe effective teaching combines **rigorous theory** with **practical appli
   display: block;
   font-weight: 700;
   color: white;
-  text-shadow: 0 2px 4px rgba(0,0,0,0.1);
 }
 
 .stats-card small {
   font-size: 0.9rem;
   text-transform: uppercase;
   letter-spacing: 0.5px;
-  color: rgba(255,255,255,0.95);
+  color: white;
 }
 
 .resource-item {
