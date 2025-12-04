@@ -233,7 +233,7 @@ North South University
 
 <div class="people-section" markdown="1">
 
-## <i class="fas fa-user-friends"></i> Research Collaborators
+## <i class="fas fa-user-friends"></i> Research / Project Collaborators
 
 <div class="row">
 <div class="col-md-3 collaborator-card" markdown="1">
@@ -298,6 +298,73 @@ North South University
 <small>NSU</small>
 
 *TabFusion for skin cancer* (KBS cond. accept)
+
+</div>
+
+<div class="col-md-3 collaborator-card" markdown="1">
+
+**Jalil Rezek**  
+<small>Johns Hopkins University</small>
+
+*Advanced NLP course research project*
+
+</div>
+</div>
+
+<div class="row mt-2">
+<div class="col-md-3 collaborator-card" markdown="1">
+
+**Maghana Karnam**  
+<small>Johns Hopkins University</small>
+
+*NLP course research project*
+
+</div>
+
+<div class="col-md-3 collaborator-card" markdown="1">
+
+**Swarali Mahimkar**  
+<small>Johns Hopkins University</small>
+
+*NLP and Machine Learning course research project*
+
+</div>
+
+<div class="col-md-3 collaborator-card" markdown="1">
+
+**Prajakta Shevakari**  
+<small>Johns Hopkins University</small>
+
+*NLP and Machine Learning course research project*
+
+</div>
+
+<div class="col-md-3 collaborator-card" markdown="1">
+
+**Mrishika Nair**  
+<small>Johns Hopkins University</small>
+
+*Computer Vision course research project*
+
+</div>
+</div>
+
+<div class="row mt-2">
+<div class="col-md-3 collaborator-card" markdown="1">
+
+**Aswath Suresh**  
+<small>Johns Hopkins University</small>
+
+*Computer Vision course research project*
+
+</div>
+
+<div class="col-md-3 collaborator-card" markdown="1">
+
+**Yishu Zhang**  
+<small>Johns Hopkins University</small>
+
+*Computer Vision course research project*
 
 </div>
 </div>
@@ -586,11 +653,12 @@ I'm always open to new research collaborations, especially in:
 }
 
 .stats-highlight {
-  background: linear-gradient(135deg, var(--global-theme-color) 0%, var(--global-theme-color-dark, #1a1a1a) 100%);
+  background: linear-gradient(135deg, #2563eb 0%, #3b82f6 50%, #60a5fa 100%);
   color: white;
   padding: 2rem;
   border-radius: 0.5rem;
   margin: 2rem 0;
+  box-shadow: 0 4px 15px rgba(37, 99, 235, 0.3);
 }
 
 .stat-number {
@@ -598,6 +666,7 @@ I'm always open to new research collaborations, especially in:
   font-weight: 700;
   display: block;
   color: white;
+  text-shadow: 0 2px 4px rgba(0,0,0,0.1);
 }
 
 .collaboration-cta {
