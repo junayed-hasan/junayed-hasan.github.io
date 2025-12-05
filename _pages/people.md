@@ -653,18 +653,22 @@ I'm always open to new research collaborations, especially in:
 }
 
 .stats-highlight {
-  background: var(--global-theme-color);
-  color: white;
+  background: linear-gradient(135deg, var(--global-theme-color) 0%, var(--global-theme-color-dark, #1a1a1a) 100%);
+  color: white !important;
   padding: 2rem;
   border-radius: 0.5rem;
   margin: 2rem 0;
+}
+
+.stats-highlight * {
+  color: white !important;
 }
 
 .stat-number {
   font-size: 2.5rem;
   font-weight: 700;
   display: block;
-  color: white;
+  color: white !important;
 }
 
 .collaboration-cta {
