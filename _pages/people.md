@@ -314,7 +314,7 @@ North South University
 <div class="row mt-2">
 <div class="col-md-3 collaborator-card" markdown="1">
 
-**Maghana Karnam**  
+**Meghana Karnam**  
 <small>Johns Hopkins University</small>
 
 *NLP course research project*
