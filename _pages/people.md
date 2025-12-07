@@ -384,7 +384,7 @@ North South University
 <div class="mentee-item" markdown="1">
 **Dr. MD Nahid Hassan Nishan**  
 <small>Master's Student, NSU</small>  
-*QuantumMedKD* (AEJ 2025)
+*QuantumMedKD* (AEJ 2026)
 </div>
 
 <div class="mentee-item" markdown="1">
@@ -420,13 +420,13 @@ North South University
 <div class="mentee-item" markdown="1">
 **Waqilur Rahman Chowdhury**  
 <small>SUST, BD</small>  
-*QSiamNet* (Neurocomputing under review)
+*QSiamNet* (Neurocomputing, in revision)
 </div>
 
 <div class="mentee-item" markdown="1">
 **Urmi Sen**  
 <small>Rajshahi University of Engineering and Technology, BD</small>  
-*QSiamNet* (Neurocomputing under review)
+*QSiamNet* (Neurocomputing, in revision)
 </div>
 
 <div class="mentee-item" markdown="1">
@@ -444,49 +444,49 @@ North South University
 <div class="mentee-item" markdown="1">
 **Rakib Ullah**  
 <small>Sylhet Engineering College</small>  
-*TransMed* (PLOS Digital Health)
+*TransMed* (PLOS Digital Health, under review)
 </div>
 
 <div class="mentee-item" markdown="1">
 **Mimjamam Ul Haque Monmoy**  
 <small>American International University Bangladesh</small>  
-*TransMed* (PLOS Digital Health)
+*TransMed* (PLOS Digital Health, under review)
 </div>
 
 <div class="mentee-item" markdown="1">
 **Syed Nadim Mehdi**  
 <small>Sylhet Engineering College</small>  
-*TransMed* (PLOS Digital Health)
+*TransMed* (PLOS Digital Health, under review)
 </div>
 
 <div class="mentee-item" markdown="1">
 **Progga Parmita Roy**  
 <small>American International University Bangladesh</small>  
-*Research in ML applications*
+*BGCA-Fusion* (Medical Image Analysis, under review)
 </div>
 
 <div class="mentee-item" markdown="1">
 **Fahim Shahriar**  
 <small>BRAC University, BD</small>  
-*Research in NLP*
+*BGCA-Fusion* (Medical Image Analysis, under review)
 </div>
 
 <div class="mentee-item" markdown="1">
 **Mrittika Roy**  
 <small>Rajshahi University of Science and Technology, BD</small>  
-*Research in healthcare AI*
+*BGCA-Fusion* (Medical Image Analysis, under review)
 </div>
 
 <div class="mentee-item" markdown="1">
 **Md. Shakhawat Hossain**  
 <small>NSU</small>  
-*Research in hybrid quantum ML (computer vision)*
+*QuantDent* (Quantum Machine Intelligence, under review)
 </div>
 
 <div class="mentee-item" markdown="1">
 **Md. Mehedi Hasan**  
 <small>Noakhali Science and Technology University, BD</small>  
-*Research in quantum ML (computer vision)*
+*QuantDent* (Quantum Machine Intelligence, under review)
 </div>
 
 </div>
@@ -503,11 +503,11 @@ North South University
 <small>Projects Supervised</small>
 </div>
 <div class="col-md-3">
-<strong class="stat-number">12</strong><br>
+<strong class="stat-number">14</strong><br>
 <small>Co-authored Papers</small>
 </div>
 <div class="col-md-3">
-<strong class="stat-number">9</strong><br>
+<strong class="stat-number">11</strong><br>
 <small>Q1 Submissions</small>
 </div>
 </div>
