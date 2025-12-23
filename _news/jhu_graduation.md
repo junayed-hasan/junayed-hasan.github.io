@@ -5,6 +5,6 @@ inline: true
 related_posts: false
 ---
 
-🎓 **Graduated from Johns Hopkins University** with an M.S.E. in Computer Science, achieving a **CGPA of 3.9/4.0**! Grateful for an incredible journey in research and learning.
+🎓 **Graduated from Johns Hopkins University** with an M.S.E. in Computer Science (**CGPA of 3.9/4.0**). Grateful for an incredible journey in research and learning.
 
 
